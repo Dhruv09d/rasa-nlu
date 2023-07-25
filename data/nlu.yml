@@ -1,0 +1,431 @@
+version: "3.1"
+nlu:
+  - intent: main_menu
+    examples: |
+      - greetings
+      - how are you?
+      - hi
+      - hey
+      - yo
+      - hi
+      - hola
+      - hello
+      - heeey
+      - bot
+      - main menu
+      - bonjour
+      - arigato
+      - good evening
+      - good night
+      - good morning
+      - namaste
+  - intent: AC_Noisy_REQ
+    examples: |
+      - The [air conditioner](Ac_Noisy_hotelInfo) in my room is making an unusual noise.
+      - I can hear a strange noise coming from the [AC](Ac_Noisy_hotelInfo) unit.
+      - The [AC](Ac_Noisy_hotelInfo) is making a rattling sound.
+      - There's a loud clanking noise from the [air conditioner](Ac_Noisy_hotelInfo).
+      - The [AC](Ac_Noisy_hotelInfo) has started making a high-pitched squealing noise.
+      - I'm concerned about the loud banging noise from the [air conditioner](Ac_Noisy_hotelInfo).
+      - The [AC](Ac_Noisy_hotelInfo) is producing an annoying clicking noise.
+      - There's a constant humming noise coming from the [AC](Ac_Noisy_hotelInfo).
+      - I noticed a grinding noise when the [AC](Ac_Noisy_hotelInfo) is running.
+      - The [air conditioner](Ac_Noisy_hotelInfo) is making a whistling noise.
+      - I hear a buzzing noise whenever the [AC](Ac_Noisy_hotelInfo) is on.
+      - The [AC](Ac_Noisy_hotelInfo) is making a gurgling noise.
+      - There's a chirping noise coming from the [air conditioner](Ac_Noisy_hotelInfo).
+      - I'm bothered by the loud hissing noise from the [AC](Ac_Noisy_hotelInfo).
+      - The [AC](Ac_Noisy_hotelInfo) is emitting a repetitive tapping noise.
+      - There's a rhythmic thumping noise when the [AC](Ac_Noisy_hotelInfo) starts.
+      - The [air conditioner](Ac_Noisy_hotelInfo) is making a knocking noise.
+      - I'm experiencing a loud screeching noise from the [AC](Ac_Noisy_hotelInfo).
+      - There's a strange whooshing noise when the [AC](Ac_Noisy_hotelInfo) is running.
+      - The [AC](Ac_Noisy_hotelInfo) is making a vibrating noise.
+      - I noticed a sputtering noise when the [AC](Ac_Noisy_hotelInfo) is on.
+      - The [air conditioner](Ac_Noisy_hotelInfo) is emitting a popping noise.
+      - There's a clattering noise from the [AC's](Ac_Noisy_hotelInfo) compressor.
+      - I'm concerned about the intermittent thudding noise from the [AC](Ac_Noisy_hotelInfo).
+      - The [AC](Ac_Noisy_hotelInfo) is producing a crackling noise.
+      - There's a faint swooshing noise when the [AC](Ac_Noisy_hotelInfo) starts.
+      - I can hear a wheezing noise coming from the [AC](Ac_Noisy_hotelInfo) vents.
+      - The [AC](Ac_Noisy_hotelInfo) is making a knocking and banging noise.
+      - There's a loud clunking noise from the [AC's](Ac_Noisy_hotelInfo) fan.
+      - I noticed a metallic scraping noise from the [AC](Ac_Noisy_hotelInfo).
+      - The [air conditioner](Ac_Noisy_hotelInfo) is making a dripping noise.
+      - There's a persistent tapping noise when the [AC](Ac_Noisy_hotelInfo) is running.
+      - I'm bothered by the whirring noise from the [AC's](Ac_Noisy_hotelInfo) motor.
+      - The [AC](Ac_Noisy_hotelInfo) is emitting a continuous buzzing noise.
+      - There's a faint clicking noise coming from the [AC's](Ac_Noisy_hotelInfo) control panel.
+      - I can hear a faint creaking noise from the [AC's](Ac_Noisy_hotelInfo) housing.
+      - The [AC](Ac_Noisy_hotelInfo) is producing a persistent rumbling noise.
+      - There's a slight thumping noise when the [AC](Ac_Noisy_hotelInfo) starts.
+      - I noticed a whooshing and gurgling noise from the [AC](Ac_Noisy_hotelInfo).
+      - The [air conditioner](Ac_Noisy_hotelInfo) is making a groaning noise.
+      - There's a loud knocking and rattling noise from the [AC's](Ac_Noisy_hotelInfo) ductwork.
+      - I'm concerned about the loud grinding noise when the [AC](Ac_Noisy_hotelInfo) is on.
+      - The [AC](Ac_Noisy_hotelInfo) is emitting a faint whistling and humming noise.
+      - There's a persistent buzzing and clicking noise from the [AC's](Ac_Noisy_hotelInfo) control panel.
+      - I can hear a metallic clanking noise coming from the [AC](Ac_Noisy_hotelInfo) unit.
+      - The [AC](Ac_Noisy_hotelInfo) is making a rhythmic screeching noise.
+      - There's a continuous hissing noise when the [AC](Ac_Noisy_hotelInfo) is running.
+      - I noticed a repetitive tapping and buzzing noise from the [AC](Ac_Noisy_hotelInfo) vents.
+      - The [air conditioner](Ac_Noisy_hotelInfo) is making a clunking and squealing noise.
+      - There's a faint chirping and gurgling noise coming from the [AC](Ac_Noisy_hotelInfo).
+      - The [AC](Ac_Noisy_hotelInfo) unit in my office is making a strange rattling noise.
+      - I woke up last night to the loud clanking sound coming from the [AC](Ac_Noisy_hotelInfo).
+      - The constant buzzing noise from the [AC](Ac_Noisy_hotelInfo) is driving me crazy.
+      - I called the technician because my [AC](Ac_Noisy_hotelInfo) is making a whirring noise.
+      - The [AC](Ac_Noisy_hotelInfo) started making a screeching noise out of nowhere.
+      - The grinding noise from the [AC](Ac_Noisy_hotelInfo) is getting louder each day.
+      - I can't concentrate on work with the [AC](Ac_Noisy_hotelInfo) making such a racket.
+      - The [AC's](Ac_Noisy_hotelInfo) humming noise is disrupting my sleep every night.
+      - I suspect there's something wrong with the fan as it's making a clicking noise.
+      - The [AC](Ac_Noisy_hotelInfo) unit in the living room is producing an annoying squealing noise.
+      - I noticed a knocking noise coming from the [AC](Ac_Noisy_hotelInfo) vent.
+      - The [air conditioner](Ac_Noisy_hotelInfo) is making a strange gurgling noise.
+      - The screeching noise from the [AC](Ac_Noisy_hotelInfo) is unbearable.
+      - I had to turn off the [AC](Ac_Noisy_hotelInfo) because of the loud banging noise.
+      - The [AC](Ac_Noisy_hotelInfo) is making an odd hissing noise that it never made before.
+      - The clattering noise from the [AC](Ac_Noisy_hotelInfo) is giving me a headache.
+      - My [AC](Ac_Noisy_hotelInfo) started making a bubbling noise, which is concerning.
+      - The whooshing noise from the [AC](Ac_Noisy_hotelInfo) is too loud for a new unit.
+      - I called for maintenance as the [AC](Ac_Noisy_hotelInfo) is making a clicking noise.
+      - The [AC's](Ac_Noisy_hotelInfo) gurgling noise indicates a possible issue with the coolant.
+      - The vibrating noise from the [AC](Ac_Noisy_hotelInfo) is incredibly annoying.
+      - My old [AC](Ac_Noisy_hotelInfo) is making a groaning noise, signaling it might break down soon.
+      - The [AC](Ac_Noisy_hotelInfo) in the server room is making an unsettling rumbling noise.
+      - I can't relax with the [AC](Ac_Noisy_hotelInfo) making such a disturbing noise.
+      - The knocking noise from the [AC](Ac_Noisy_hotelInfo) is keeping me up at night.
+      - The [AC](Ac_Noisy_hotelInfo) unit on the rooftop is making a clanging noise.
+      - I noticed a high-pitched noise coming from the [AC](Ac_Noisy_hotelInfo) compressor.
+      - The [AC](Ac_Noisy_hotelInfo) has been making a clicking noise for days.
+      - The strange noise coming from the [AC](Ac_Noisy_hotelInfo) vent is worrisome.
+      - The [AC's](Ac_Noisy_hotelInfo) whining noise indicates a possible motor issue.
+      - I scheduled a maintenance checkup because the [AC](Ac_Noisy_hotelInfo) is making an odd grinding noise.
+      - The loud thumping noise from the [AC](Ac_Noisy_hotelInfo) is giving me sleepless nights.
+      - The [AC](Ac_Noisy_hotelInfo) unit in the office is making an irritating buzzing noise.
+      - I need to get the [AC](Ac_Noisy_hotelInfo) fixed; it's making a clinking noise.
+      - The [AC's](Ac_Noisy_hotelInfo) screeching noise suggests a problem with the belt.
+      - My [AC](Ac_Noisy_hotelInfo) started making a rattling noise after the power outage.
+      - The strange clicking noise from the [AC](Ac_Noisy_hotelInfo) is getting louder.
+      - I can't concentrate on my studies with the [AC](Ac_Noisy_hotelInfo) making such a racket.
+      - The [AC](Ac_Noisy_hotelInfo) unit in the bedroom is making an annoying ticking noise.
+      - I woke up to a dripping noise coming from the AC.
+      - The [AC's](Ac_Noisy_hotelInfo) whirring noise is louder than usual.
+      - My [AC](Ac_Noisy_hotelInfo) is making a strange humming noise that's never been there before.
+      - The loud banging noise from the [AC](Ac_Noisy_hotelInfo) is concerning.
+      - I called the technician because my [AC](Ac_Noisy_hotelInfo) is making a screeching noise.
+      - The [AC's](Ac_Noisy_hotelInfo) clicking noise indicates a possible electrical issue.
+      - The rustling noise from the [AC](Ac_Noisy_hotelInfo) vent is irritating.
+      - I need to replace the [AC](Ac_Noisy_hotelInfo) filter as it's making a wheezing noise.
+      - The [AC](Ac_Noisy_hotelInfo) in the car is making an odd grinding noise.
+      - The [AC's](Ac_Noisy_hotelInfo) whining noise is getting on my nerves.
+      - My [AC](Ac_Noisy_hotelInfo) started making a knocking noise after the recent maintenance.
+  - intent: Ac_Cooling_REQ
+    examples: |
+      - the [AC](AC_Cooling_hotelInfo) is making lot of noise.  
+      - My [air conditioner](AC_Cooling_hotelInfo) is not cooling properly.
+      - The [AC](AC_Cooling_hotelInfo) in my room is blowing warm air.
+      - There's no cold air coming from the [AC](AC_Cooling_hotelInfo).
+      - The [air conditioner](AC_Cooling_hotelInfo) is not providing any cooling.
+      - My [AC](AC_Cooling_hotelInfo) unit is running, but it's not cooling the room.
+      - The room remains hot despite the [AC](AC_Cooling_hotelInfo) being on.
+      - The [air conditioner](AC_Cooling_hotelInfo) is not effective in cooling the space.
+      - I set the [AC](AC_Cooling_hotelInfo) to a lower temperature, but it's still not cooling.
+      - The [AC's](AC_Cooling_hotelInfo) cooling capacity seems to have decreased.
+      - There's minimal cooling from the [air conditioner](AC_Cooling_hotelInfo).
+      - The [AC](AC_Cooling_hotelInfo) is struggling to cool the room.
+      - The [air conditioner](AC_Cooling_hotelInfo) doesn't feel cool as it used to.
+      - Despite the [AC](AC_Cooling_hotelInfo) being on for a while, it's not cooling down.
+      - The room temperature is not dropping with the [AC](AC_Cooling_hotelInfo) running.
+      - I've tried different settings, but the [AC](AC_Cooling_hotelInfo) is still not cooling.
+      - There's a lack of cooling performance from the [air conditioner](AC_Cooling_hotelInfo).
+      - The [AC's](AC_Cooling_hotelInfo) cooling function is not working correctly.
+      - I feel warm air instead of cold air from the [AC](AC_Cooling_hotelInfo).
+      - The [AC](AC_Cooling_hotelInfo) compressor is running, but there's no cooling effect.
+      - The [air conditioner's](AC_Cooling_hotelInfo) cooling seems to have stopped.
+      - The room remains uncomfortably warm with the [AC](AC_Cooling_hotelInfo) on.
+      - The [AC](AC_Cooling_hotelInfo) is blowing air, but it's not cooling the room.
+      - The [AC's](AC_Cooling_hotelInfo) cooling power has decreased significantly.
+      - I can hear the [AC](AC_Cooling_hotelInfo) running, but it's not cooling.
+      - The [air conditioner](AC_Cooling_hotelInfo) is not maintaining a cool temperature.
+      - The cooling performance of the [AC](AC_Cooling_hotelInfo) has deteriorated.
+      - Despite setting the [AC](AC_Cooling_hotelInfo) to the lowest temperature, it's not cooling.
+      - The room temperature remains high with the [AC](AC_Cooling_hotelInfo) on.
+      - The [AC](AC_Cooling_hotelInfo) is not delivering the expected cooling effect.
+      - The [air conditioner's](AC_Cooling_hotelInfo) cooling function is not functioning properly.
+      - I'm experiencing poor cooling from the [AC](AC_Cooling_hotelInfo).
+      - The [AC](AC_Cooling_hotelInfo) is not able to cool the room effectively.
+      - The cooling capacity of the [AC](AC_Cooling_hotelIn  # - lookup: Ac_Assistance_hotelInfo
+      - The [AC](AC_Cooling_hotelInfo) unit is on, but it's not providing any cooling relief.
+      - The [air conditioner](AC_Cooling_hotelInfo) is running, but it's not cooling as it should.
+      - The room feels stuffy and warm with the [AC](AC_Cooling_hotelInfo) running.
+      - The [AC](AC_Cooling_hotelInfo) is not cooling the room evenly.
+      - Despite multiple attempts, the [AC](AC_Cooling_hotelInfo) is still not cooling.
+      - I've checked the settings, but the [AC](AC_Cooling_hotelInfo) is not cooling.
+      - There's a noticeable lack of cooling from the [air conditioner](AC_Cooling_hotelInfo).
+      - The [AC](AC_Cooling_hotelInfo) doesn't seem to be removing heat from the room.
+      - The room remains uncomfortably hot despite the [AC](AC_Cooling_hotelInfo) being on.
+      - The cooling performance of the [AC](AC_Cooling_hotelInfo) has dropped drastically.
+      - The [air conditioner's](AC_Cooling_hotelInfo) cooling capability has decreased.
+      - The [AC](AC_Cooling_hotelInfo) is not maintaining a comfortable temperature.
+      - There's no significant temperature change with the [AC](AC_Cooling_hotelInfo) running.
+      - The [AC's](AC_Cooling_hotelInfo) cooling feature appears to be malfunctioning.
+      - The [air conditioner's](AC_Cooling_hotelInfo) cooling cycle is not functioning properly.
+      - I've cleaned the filters, but the [AC](AC_Cooling_hotelInfo) is still not cooling.
+      - The [AC](AC_Cooling_hotelInfo) is not able to provide the desired cooling effect.
+  - intent: Ac_Dirty_REQ
+    examples: |
+      - i think the [ac](Ac_Dirty_hotelInfo) looks very dirty I think think the air is blocked
+      - my [ac](Ac_Dirty_hotelInfo) smelling bad.
+      - my [ac](Ac_Dirty_hotelInfo) is quite dirty.
+      - My [air conditioner](Ac_Dirty_hotelInfo) desperately needs cleaning.
+      - The [AC](Ac_Dirty_hotelInfo) unit is filled with dust and dirt, and it's not cleaned.
+      - I can see dirt and debris in the [air conditioner's](Ac_Dirty_hotelInfo) vents.
+      - The [AC's](Ac_Dirty_hotelInfo) filters are clogged and not cleaned.
+      - It's been a long time since the [AC](Ac_Dirty_hotelInfo) was last cleaned.
+      - The [air conditioner's](Ac_Dirty_hotelInfo) coils are covered in grime and not cleaned.
+      - I've noticed mold and mildew in the [AC](Ac_Dirty_hotelInfo), indicating it's not cleaned.
+      - The [AC's](Ac_Dirty_hotelInfo) cooling fins are blocked with dust and not cleaned.
+      - The lack of regular cleaning has affected the [AC's](Ac_Dirty_hotelInfo) performance.
+      - I can smell a musty odor from the [AC](Ac_Dirty_hotelInfo), indicating it's not cleaned.
+      - The [air conditioner's](Ac_Dirty_hotelInfo) exterior is dusty and not cleaned.
+      - I've noticed a decrease in air quality because the [AC](Ac_Dirty_hotelInfo) is not cleaned.
+      - The [AC's](Ac_Dirty_hotelInfo) drainage system is clogged due to lack of cleaning.
+      - Dust particles are floating around the room when the [AC](Ac_Dirty_hotelInfo) is on and not cleaned.
+      - The [AC's](Ac_Dirty_hotelInfo) blades are covered in dirt and not cleaned.
+      - I suspect the lack of cleaning is affecting the [AC's](Ac_Dirty_hotelInfo) efficiency.
+      - The [AC's](Ac_Dirty_hotelInfo) air flow seems restricted due to dirt buildup and not cleaned.
+      - The [AC's](Ac_Dirty_hotelInfo) fan is making noise, possibly due to lack of cleaning.
+      - I can see cobwebs and debris inside the [AC](Ac_Dirty_hotelInfo) unit, indicating it's not cleaned.
+      - The [air conditioner](Ac_Dirty_hotelInfo) is not cooling efficiently because it's not cleaned.
+      - The [AC's](Ac_Dirty_hotelInfo) vents are partially blocked by dust and not cleaned.
+      - I've noticed a decrease in cooling capacity due to lack of [AC's](Ac_Dirty_hotelInfo) cleaning.
+      - The lack of cleaning has resulted in reduced airflow from the [AC](Ac_Dirty_hotelInfo).
+      - The [air conditioner's](Ac_Dirty_hotelInfo) fins are bent and not cleaned.
+      - The [AC's](Ac_Dirty_hotelInfo) remote control is sticky and dusty due to lack of cleaning.
+      - I can see dirt and pet hair stuck to the [AC's](Ac_Dirty_hotelInfo) grilles and not cleaned.
+      - The [AC's](Ac_Dirty_hotelInfo) condenser unit is surrounded by debris and not cleaned.
+      - The lack of [AC's](Ac_Dirty_hotelInfo) cleaning has led to an increase in allergens in the air.
+      - I suspect the [AC's](Ac_Dirty_hotelInfo) lack of cleaning is causing it to use more energy.
+      - The [air conditioner's](Ac_Dirty_hotelInfo) vents are emitting a stale smell because it's not cleaned.
+      - I'm concerned that the lack of cleaning might damage the [AC's](Ac_Dirty_hotelInfo).
+      - The [AC's](Ac_Dirty_hotelInfo) efficiency has decreased significantly due to lack of cleaning.
+      - The lack of [AC's](Ac_Dirty_hotelInfo) cleaning might be contributing to poor indoor air quality.
+      - I can see dust particles flying out of the [AC](Ac_Dirty_hotelInfo) when it's running and not cleaned.
+      - The [AC's](Ac_Dirty_hotelInfo) cooling coils are covered in grime, indicating it's not cleaned.
+      - The lack of cleaning has caused the [AC](Ac_Dirty_hotelInfo) to accumulate dirt and dust.
+      - The [air conditioner's](Ac_Dirty_hotelInfo) fan blades are coated with dust and not cleaned.
+      - I've noticed a decrease in the [AC's](Ac_Dirty_hotelInfo) airflow due to lack of cleaning.
+      - The lack of [AC's](Ac_Dirty_hotelInfo) cleaning has resulted in reduced cooling performance.
+      - The [air conditioner's](Ac_Dirty_hotelInfo) louvers are not moving smoothly because it's not cleaned.
+      - I suspect the [AC's](Ac_Dirty_hotelInfo) lack of cleaning is affecting its lifespan.
+      - The [AC's](Ac_Dirty_hotelInfo) vents are dusty and need cleaning.
+      - The lack of cleaning has made the [AC](Ac_Dirty_hotelInfo) less effective at cooling the room.
+      - I can see water dripping from the [AC](Ac_Dirty_hotelInfo) due to clogged drainage and not cleaned.
+      - The [AC's](Ac_Dirty_hotelInfo) air filters are heavily soiled and not cleaned.
+      - The lack of cleaning might be causing the [AC's](Ac_Dirty_hotelInfo) to produce strange noises.
+      - I've noticed a decrease in the [AC's](Ac_Dirty_hotelInfo) cooling capacity due to lack of cleaning.
+      - The [air conditioner's](Ac_Dirty_hotelInfo) coils are covered in dust, indicating it's not cleaned.
+      - The lack of [AC's](Ac_Dirty_hotelInfo) cleaning has led to poor air circulation in the room.
+      - I suspect the [AC's](Ac_Dirty_hotelInfo) lack of cleaning is contributing to increased energy consumption.
+  - intent: Ac_Assistance_REQ
+    examples: |
+      - My [air conditioner](Ac_Assistance_hotelInfo) is not working at all.
+      - The [AC](Ac_Assistance_hotelInfo) in my room is completely non-functional.
+      - There's no response when I turn on the [AC](Ac_Assistance_hotelInfo).
+      - The [air conditioner](Ac_Assistance_hotelInfo) is not powering up.
+      - The [AC](Ac_Assistance_hotelInfo) unit is not starting up.
+      - There's no sound or activity from the [AC](Ac_Assistance_hotelInfo).
+      - I've tried to turn on the [AC](Ac_Assistance_hotelInfo), but it's not working.
+      - The [AC](Ac_Assistance_hotelInfo) display panel is not lighting up.
+      - The [air conditioner](Ac_Assistance_hotelInfo) is not responding to the remote control.
+      - The [AC's][AC](Ac_Assistance_hotelInfo) fan is not spinning when I switch it on.
+      - The [air conditioner](Ac_Assistance_hotelInfo)'s compressor is not engaging.
+      - The [AC](Ac_Assistance_hotelInfo) is not cooling or heating as expected.
+      - The [air conditioner](Ac_Assistance_hotelInfo)'s lights are not turning on.
+      - The [AC's][AC](Ac_Assistance_hotelInfo) power button is unresponsive.
+      - I've checked the power source, but the [AC](Ac_Assistance_hotelInfo) is not working.
+      - The [air conditioner](Ac_Assistance_hotelInfo) is not making any noise or vibrations.
+      - The [AC's][AC](Ac_Assistance_hotelInfo) control panel is not functioning.
+      - The [air conditioner](Ac_Assistance_hotelInfo)'s vents are not releasing air.
+      - The [AC's][AC](Ac_Assistance_hotelInfo) temperature settings are not changing.
+      - I've pressed the [AC's][AC](Ac_Assistance_hotelInfo) buttons, but it's not responding.
+      - The [air conditioner](Ac_Assistance_hotelInfo) is not switching between modes (cool, heat, etc.).
+      - The [AC's][AC](Ac_Assistance_hotelInfo) remote control is not communicating with the unit.
+      - The [air conditioner](Ac_Assistance_hotelInfo)'s circuit breaker has not tripped.
+      - The [AC](Ac_Assistance_hotelInfo) is not displaying any error codes or messages.
+      - I've tried to reset the [AC](Ac_Assistance_hotelInfo), but it's still not working.
+      - The [air conditioner](Ac_Assistance_hotelInfo)'s power cord is properly connected, but it's not working.
+      - The [AC's][AC](Ac_Assistance_hotelInfo) internal components seem to be non-functional.
+      - The [air conditioner](Ac_Assistance_hotelInfo) is not responding to any commands.
+      - The [AC](Ac_Assistance_hotelInfo) is not turning off despite pressing the power button.
+      - The [air conditioner](Ac_Assistance_hotelInfo)'s compressor is not starting up.
+      - The [AC's][AC](Ac_Assistance_hotelInfo) thermostat is not responding to temperature changes.
+      - The [air conditioner](Ac_Assistance_hotelInfo)'s remote control batteries have been replaced, but it's not working.
+      - The [AC's][AC](Ac_Assistance_hotelInfo) display shows an error message, indicating a problem.
+      - The [air conditioner](Ac_Assistance_hotelInfo)'s internal fan is not operating.
+      - The [AC's][AC](Ac_Assistance_hotelInfo) motor is not functioning, resulting in no airflow.
+      - The [air conditioner](Ac_Assistance_hotelInfo) is not producing any cool or warm air.
+      - The [AC's][AC](Ac_Assistance_hotelInfo) condenser is not working, affecting its cooling ability.
+      - The [air conditioner](Ac_Assistance_hotelInfo)'s timer function is not working.
+      - The [AC's][AC](Ac_Assistance_hotelInfo) fan speed settings are not adjustable.
+      - The [air conditioner](Ac_Assistance_hotelInfo)'s noise level is unusually quiet, indicating an issue.
+      - The [AC's][AC](Ac_Assistance_hotelInfo) outdoor unit is not running.
+      - The [air conditioner](Ac_Assistance_hotelInfo) is not responding to the central thermostat's commands.
+      - The [AC's][AC](Ac_Assistance_hotelInfo) compressor is making unusual noises or sounds.
+      - The [air conditioner](Ac_Assistance_hotelInfo)'s circuitry seems to be malfunctioning.
+      - The [AC](Ac_Assistance_hotelInfo) is not displaying any indicators of power.
+      - The [air conditioner](Ac_Assistance_hotelInfo)'s remote control buttons are not responsive.
+      - The [AC's][AC](Ac_Assistance_hotelInfo) vents are not opening or closing properly.
+      - The [air conditioner](Ac_Assistance_hotelInfo)'s internal sensors are not detecting room temperature changes.
+      - The [AC's][AC](Ac_Assistance_hotelInfo) on/off switch is not toggling the unit's power.
+      - The [air conditioner](Ac_Assistance_hotelInfo)'s power supply seems to be faulty, resulting in no operation.
+  - intent: Tv_Assistance_REQ
+    examples: |
+      - My [TV](Tv_Assistance_hotelInfo) is not working at all.
+      - The [TV](Tv_Assistance_hotelInfo) screen is blank, and there's no signal.
+      - I can't turn on the [TV](Tv_Assistance_hotelInfo) using the remote.
+      - There's no picture on the [TV](Tv_Assistance_hotelInfo), but I can hear sound.
+      - The [television](Tv_Assistance_hotelInfo) is stuck on a specific channel and won't change.
+      - I've tried multiple remotes, but the [TV](Tv_Assistance_hotelInfo) is still not responding.
+      - The [TV's](Tv_Assistance_hotelInfo) power button is unresponsive.
+      - I'm getting a "No Signal" message on the [TV](Tv_Assistance_hotelInfo) screen.
+      - The [TV](Tv_Assistance_hotelInfo)is displaying a snowy or distorted picture.
+      - The [TV's](Tv_Assistance_hotelInfo) menu options are not accessible.
+      - I've checked the connections, but the [TV](Tv_Assistance_hotelInfo) is not working.
+      - The [TV's](Tv_Assistance_hotelInfo) volume is not working or is stuck at a certain level.
+      - I can't access any channels on the [TV](Tv_Assistance_hotelInfo).
+      - The [TV's](Tv_Assistance_hotelInfo) remote control is not functioning.
+      - The [TV's](Tv_Assistance_hotelInfo) display is flickering or flashing.
+      - The [TV](Tv_Assistance_hotelInfo) is turning on and off by itself.
+      - The [TV](Tv_Assistance_hotelInfo) is displaying a black screen with audio.
+      - The [TV's](Tv_Assistance_hotelInfo) buttons on the side are not responding.
+      - I can't adjust the brightness or contrast on the [TV](Tv_Assistance_hotelInfo).
+      - The [TV's](Tv_Assistance_hotelInfo) remote is working for other devices but not the TV.
+      - The [TV](Tv_Assistance_hotelInfo) is not responding to any commands.
+      - The [TV's](Tv_Assistance_hotelInfo) screen is frozen and won't respond to input.
+      - The [television's](Tv_Assistance_hotelInfo) picture is showing colors incorrectly.
+      - The [TV's](Tv_Assistance_hotelInfo) built-in apps are not working.
+      - The [TV's](Tv_Assistance_hotelInfo) screen is displaying vertical or horizontal lines.
+      - The [TV](Tv_Assistance_hotelInfo) is making a clicking sound but not turning on.
+      - The [TV's](Tv_Assistance_hotelInfo) remote is pairing with the TV but not controlling it.
+      - The [television](Tv_Assistance_hotelInfo) is showing a "No Input" or "No Source" message.
+      - The [TV's](Tv_Assistance_hotelInfo) screen is displaying a "Mode Not Supported" error.
+      - The [TV's](Tv_Assistance_hotelInfo) screen is displaying a "No Channel Found" message.
+      - The [TV's](Tv_Assistance_hotelInfo) built-in speakers are not producing sound.
+      - The [TV](Tv_Assistance_hotelInfo) is showing a "Please Wait" message but not progressing.
+      - The [TV's](Tv_Assistance_hotelInfo) screen is showing a "Searching for Signal" message.
+      - The [television's](Tv_Assistance_hotelInfo) screen is displaying a "Weak or No Signal" message.
+      - The [TV](Tv_Assistance_hotelInfo) is not responding to remote commands or button presses.
+      - The [TV's](Tv_Assistance_hotelInfo) power light is blinking, but it's not turning on.
+      - The [TV's](Tv_Assistance_hotelInfo) remote's batteries are replaced, but it's still not working.
+      - The [TV](Tv_Assistance_hotelInfo) is showing a "No Video Signal" message.
+      - The [TV's](Tv_Assistance_hotelInfo) screen is displaying vertical bands or stripes.
+      - The [TV's](Tv_Assistance_hotelInfo) on-screen menu is not displaying correctly.
+      - The [television's](Tv_Assistance_hotelInfo) remote is not pairing with the TV at all.
+      - The [TV's](Tv_Assistance_hotelInfo) screen is showing a "Not Supported Format" error.
+      - The [TV's](Tv_Assistance_hotelInfo) screen is displaying "Static" or "Snow" with no picture.
+      - The [TV's](Tv_Assistance_hotelInfo) screen is showing a "No Broadcast Signal" message.
+      - The [TV's](Tv_Assistance_hotelInfo) audio is cutting in and out intermittently.
+      - The [TV's](Tv_Assistance_hotelInfo) screen is showing a "No Sound" or "Muted" message.
+      - The [TV's](Tv_Assistance_hotelInfo) screen is showing a "No Signal Input" message.
+      - The [TV's](Tv_Assistance_hotelInfo) screen is displaying a "Please Check Antenna/Cable" message.
+      - The [TV's](Tv_Assistance_hotelInfo) screen is showing a "Mode Not Supported" error.
+      - The [television's](Tv_Assistance_hotelInfo) power light is on, but the screen is completely black.
+  - intent: Tv_Dirty_REQ
+    examples: |
+      - The [television](Tv_Dirty_hotelInfo) screen has accumulated dust and dirt.
+      - There are visible smudges on the [TV](Tv_Dirty_hotelInfo) display.
+      - The [TV](Tv_Dirty_hotelInfo) has gathered dirt and fingerprints over time.
+      - I can see stains and marks on the [TV](Tv_Dirty_hotelInfo) screen.
+      - The [television](Tv_Dirty_hotelInfo) looks hazy due to dirt buildup.
+      - The [TV](Tv_Dirty_hotelInfo) screen appears dusty and needs cleaning.
+      - There are fingerprints all over the [TV](Tv_Dirty_hotelInfo) surface.
+      - I noticed dirt particles on the [television](Tv_Dirty_hotelInfo) monitor.
+      - The [television](Tv_Dirty_hotelInfo) screen is covered in dust and grime.
+      - The [TV display](Tv_Dirty_hotelInfo) is not clear because of the dirt.
+      - I can't enjoy a clear picture due to the dirty [television](Tv_Dirty_hotelInfo).
+      - The [TV's](Tv_Dirty_hotelInfo) image quality is affected by the dirt on the screen.
+      - There's a layer of dust on the [TV's](Tv_Dirty_hotelInfo) front panel.
+      - The [TV](Tv_Dirty_hotelInfo) screen needs a good cleaning.
+      - I'm having difficulty seeing details on the dirty [TV](Tv_Dirty_hotelInfo).
+      - The [TV's](Tv_Dirty_hotelInfo) colors appear dull due to the dirt.
+      - The [TV](Tv_Dirty_hotelInfo) looks smudged and needs to be cleaned.
+      - I want to clean the [television](Tv_Dirty_hotelInfo) to improve its appearance.
+      - The [TV](Tv_Dirty_hotelInfo) is hard to view clearly due to the dirt.
+      - There are marks and spots on the [TV](Tv_Dirty_hotelInfo) screen.
+      - I need to wipe off the dirt from the [TV](Tv_Dirty_hotelInfo) surface.
+      - The [TV's](Tv_Dirty_hotelInfo) picture is marred by dirt and smudges.
+      - The [TV display](Tv_Dirty_hotelInfo) is blurry because of the accumulated dirt.
+      - The [TV's](Tv_Dirty_hotelInfo) screen needs a thorough cleaning.
+      - The [TV's](Tv_Dirty_hotelInfo) clarity is compromised by dirt particles.
+      - I can see dust specks on the [TV's](Tv_Dirty_hotelInfo) screen.
+      - The [TV](Tv_Dirty_hotelInfo) needs some cleaning to look presentable.
+      - There's a film of dirt on the [TV](Tv_Dirty_hotelInfo) monitor.
+      - The [TV's](Tv_Dirty_hotelInfo) screen looks greasy and dirty.
+      - I want to remove the dirt from the [TV's](Tv_Dirty_hotelInfo) surface.
+      - The [TV's](Tv_Dirty_hotelInfo) brightness is affected by the dirt buildup.
+      - I need to get rid of the dust on the [TV](Tv_Dirty_hotelInfo).
+      - The [TV's](Tv_Dirty_hotelInfo) visual quality is diminished by the dirt.
+      - The [TV's](Tv_Dirty_hotelInfo) display needs a good wipe down.
+      - I can't enjoy a clear view due to the [dirty TV](Tv_Dirty_hotelInfo).
+      - The [Tv screen](Tv_Dirty_hotelInfo) is covered in fingerprints and dirt.
+      - The dirt on the [TV](Tv_Dirty_hotelInfo) is making it hard to watch.
+      - I noticed dirt streaks on the [TV](Tv_Dirty_hotelInfo) screen.
+      - The [TV's](Tv_Dirty_hotelInfo) image is obscured by dust and grime.
+      - There are spots and marks all over the [TV](Tv_Dirty_hotelInfo).
+      - I need to clean the [TV](Tv_Dirty_hotelInfo) to remove the dirt.
+      - The [TV's](Tv_Dirty_hotelInfo) screen requires a thorough cleaning.
+      - The [display](Tv_Dirty_hotelInfo) looks smudged and dirty.
+      - I want to wipe off the dirt from the [TV](Tv_Dirty_hotelInfo).
+      - The [TV's](Tv_Dirty_hotelInfo) picture quality is affected by the dirt.
+      - The [TV's](Tv_Dirty_hotelInfo) screen is clouded with dust.
+      - I can see dirt particles on the [TV's](Tv_Dirty_hotelInfo) surface.
+      - The [TV's](Tv_Dirty_hotelInfo) screen needs proper cleaning.
+      - The [TV](Tv_Dirty_hotelInfo) looks dull due to the accumulated dirt.
+      - I need to clean the [TV](Tv_Dirty_hotelInfo) to restore its clarity.
+  # - lookup: Ac_Assistance_hotelInfo
+  #   examples: |
+  #     - air conditioner's
+  #     - air conditioner
+  #     - ac
+  #     - ar conditioner
+  #     - ac's
+  # - lookup: Ac_Noisy_hotelInfo
+  #   examples: |
+  #     - air conditioner's
+  #     - air conditioner
+  #     - ac
+  #     - ar conditioner
+  #     - ac's
+  # - lookup: AC_Cooling_hotelInfo
+  #   examples: |
+  #     - air conditioner's
+  #     - air conditioner
+  #     - ac
+  #     - ar conditioner
+  #     - ac's
+  # - lookup: Ac_Dirty_hotelInfo
+  #   examples: |
+  #     - air conditioner's
+  #     - air conditioner
+  #     - ac
+  #     - ar conditioner
+  #     - ac's
+  # - lookup: Tv_Dirty_hotelInfo
+  #   examples: |
+  #     - television
+  #     - television screen
+  #     - tv
+  #     - tv screen
+  #     - tv's
+  #     - television's
+  # - lookup: Tv_Assistance_hotelInfo
+  #   examples: |
+  #     - television
+  #     - television screen
+  #     - tv
+  #     - tv screen
+  #     - tv's
+  #     - television's

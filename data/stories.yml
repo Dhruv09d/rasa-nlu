@@ -1,0 +1,37 @@
+version: "3.1"
+
+stories:
+  - story: User greets the bot and asks for main menu
+    steps:
+      - intent: main_menu
+      - action: utter_main_menu
+
+  - story: User reports an issue with a noisy air conditioner
+    steps:
+      - intent: AC_Noisy_REQ
+      - action: action_handle_noisy_ac
+
+  - story: User reports an issue with the air conditioner not cooling
+    steps:
+      - intent: Ac_Cooling_REQ
+      - action: action_handle_ac_cooling_issue
+
+  - story: User reports a dirty air conditioner
+    steps:
+      - intent: Ac_Dirty_REQ
+      - action: action_handle_ac_cleaning
+
+  - story: User needs assistance with the air conditioner
+    steps:
+      - intent: Ac_Assistance_REQ
+      - action: action_handle_ac_assistance
+
+  - story: User needs assistance with the TV
+    steps:
+      - intent: Tv_Assistance_REQ
+      - action: action_handle_tv_assistance
+
+  - story: User reports a dirty TV
+    steps:
+      - intent: Tv_Dirty_REQ
+      - action: action_handle_tv_cleaning
