@@ -528,6 +528,13 @@ nlu:
       - The [AC](Ac_Assistance_REQ) is not working, and I'm not considering staying further.
       - It's difficult to sleep at night when the [AC](Ac_Assistance_REQ) is not working, and the heat is suffocating.
       - The [AC](Ac_Assistance_REQ) is not working, and I regret not getting it serviced on time.
+      - my [ac](Ac_Assistance_REQ) duct is not working.
+      - my room [ac](Ac_Assistance_REQ) duck has rat.
+      - my [ac](Ac_Assistance_REQ) room duct has rat please help me.
+      - something is inside my [ac](Ac_Assistance_REQ) vent.
+      - no [ac](Ac_Assistance_REQ) assistant.
+      - there's no fucking service from your hotel please send someone to help me in [ac](Ac_Assistance_REQ).
+      - there's no fucking service from your hotel how bad these service I want to raise this concern to your senior manager and want to escalate that [ac](Ac_Assistance_REQ) is not working
   - intent: Tv_Assistance_REQ-hotel_info
     examples: |
       - My [TV](Tv_Assistance_REQ) is not working at all.
