@@ -256,7 +256,7 @@ nlu:
       - The [air conditioner's](AC_Cooling_REQ) cooling function is not functioning properly.
       - I'm experiencing poor cooling from the [AC](AC_Cooling_REQ).
       - The [AC](AC_Cooling_REQ) is not able to cool the room effectively.
-      - The cooling capacity of the [AC](AC_Cooling_hotelIn  # - lookup: Ac_Assistance_REQ
+      - The cooling capacity of the [AC](AC_Cooling_hotelIn
       - The [AC](AC_Cooling_REQ) unit is on, but it's not providing any cooling relief.
       - The [air conditioner](AC_Cooling_REQ) is running, but it's not cooling as it should.
       - The room feels stuffy and warm with the [AC](AC_Cooling_REQ) running.
@@ -323,6 +323,7 @@ nlu:
       - The [AC's](AC_Cooling_REQ) cooling performance drops when the outdoor unit is shaded.
       - I'm experiencing uneven cooling in different areas of the room.
       - The [AC's](AC_Cooling_REQ) cooling problem is causing discomfort and inconvenience during hot days.
+      - Actually I have one [ac](AC_Cooling_REQ) room and that [ac](AC_Cooling_REQ) is not cooling how the fuck is this.
   - intent: Ac_Dirty_REQ-hotel_info
     examples: |
       - There is strange pungent smell from [ac](Ac_Dirty_REQ).
@@ -431,6 +432,9 @@ nlu:
       - I hope the hotel can address the issue with the dirty [AC's](Ac_Dirty_REQ) and clean it promptly.
   - intent: Ac_Assistance_REQ-hotel_info
     examples: |
+      - [AC](Ac_Assistance_REQ) seems to be broken.
+      - It looks like [AC](Ac_Assistance_REQ) is broke.
+      - I think [AC](Ac_Assistance_REQ) is broken.
       - [AC](Ac_Assistance_REQ) is getting stopped.
       - i don't know but the [AC](Ac_Assistance_REQ) is gets stop.
       - Something is wrong with [AC](Ac_Assistance_REQ) it spotted frequently
@@ -572,12 +576,14 @@ nlu:
       - The [TV's](Tv_Assistance_REQ) screen is showing a "No Broadcast Signal" message.
       - The [TV's](Tv_Assistance_REQ) audio is cutting in and out intermittently.
       - The [TV's](Tv_Assistance_REQ) screen is showing a "No Sound" or "Muted" message.
-      - The [TV's](Tv_Assistance_REQ) screen is showing a "No Signal Input" message.
-      - The [TV's](Tv_Assistance_REQ) screen is displaying a "Please Check Antenna/Cable" message.
-      - The [TV's](Tv_Assistance_REQ) screen is showing a "Mode Not Supported" error.
+      - The [TV](Tv_Assistance_REQ) screen is showing a "No Signal Input" message.
+      - The [TV](Tv_Assistance_REQ) screen is displaying a "Please Check Antenna/Cable" message.
+      - The [TV](Tv_Assistance_REQ) screen is showing a "Mode Not Supported" error.
       - The [television's](Tv_Assistance_REQ) power light is on, but the screen is completely black.
+      - There is no picture on [tv](Tv_Assistance_REQ).
   - intent: Tv_Dirty_REQ-hotel_info
     examples: |
+      - [tv](Tv_Dirty_REQ) has some dirt on it.
       - [tv](Tv_Dirty_REQ) looks very dirty.
       - The [television](Tv_Dirty_REQ) screen has accumulated dust and dirt.
       - There are visible smudges on the [TV](Tv_Dirty_REQ) display.
@@ -830,52 +836,52 @@ nlu:
       - Hi, I seem to have misplaced my [room key](Additional_Key_REQ). May I have a [spare key](Additional_key_REQ) to use?
       - I'm facing an issue with my [room key](Additional_Key_REQ). Is it possible to get a spare one, please?
       - I can't find my [room key](Additional_Key_REQ) anywhere. Can I get a [spare key](Additional_key_REQ), by any chance?
-  - lookup: Ac_Assistance_REQ
-    examples: |
-      - air conditioner's broken 
-      - air conditioner's broke
-      - air conditioner's malfunctioning
-      - air conditioner not working
-      - ac broken 
-      - ac broke 
-      - ar malfunctioning
-      - ac not working
-  - lookup: Ac_Noisy_REQ
-    examples: |
-      - air conditioner's is loud
-      - air conditioner is noisy
-      - ac making noise
-      - ar conditioner unbearable sound
-      - ac making disturbance sound
-  - lookup: AC_Cooling_REQ
-    examples: |
-      - air conditioner's not cooling
-      - air conditioner giving warm air
-      - ac has no effect
-      - ac giving warm air
-      - ar conditioner 
-      - AC blows warm air.
-      - Air conditioner not cooling properly.
-      - AC emits warm air only.
-      - Air conditioning unit not cooling.
-      - AC not providing cold air.
-      - Warm air from the AC.
-      - No cool air from the AC.
-      - AC issue, warm air coming out.
-      - Warmth instead of cool air from AC.
-      - My AC is blowing warm air.
-  - lookup: Ac_Dirty_REQ
-    examples: |
-      - AC needs cleaning.
-      - Dirty AC unit.
-      - Clean the air conditioner.
-      - Dusty AC vents.
-      - AC filter is dirty.
-      - Dirty air conditioning system.
-      - Clean the AC coils.
-      - Dust buildup in AC.
-      - AC not working well due to dirt.
-      - Dirt affecting AC performance
+  # - lookup: Ac_Assistance_REQ
+  #   examples: |
+  #     - air conditioner's broken
+  #     - air conditioner's broke
+  #     - air conditioner's malfunctioning
+  #     - air conditioner not working
+  #     - ac broken
+  #     - ac broke
+  #     - ar malfunctioning
+  #     - ac not working
+  # - lookup: Ac_Noisy_REQ
+  #   examples: |
+  #     - air conditioner's is loud
+  #     - air conditioner is noisy
+  #     - ac making noise
+  #     - ar conditioner unbearable sound
+  #     - ac making disturbance sound
+  # - lookup: AC_Cooling_REQ
+  #   examples: |
+  #     - air conditioner's not cooling
+  #     - air conditioner giving warm air
+  #     - ac has no effect
+  #     - ac giving warm air
+  #     - ar conditioner
+  #     - AC blows warm air.
+  #     - Air conditioner not cooling properly.
+  #     - AC emits warm air only.
+  #     - Air conditioning unit not cooling.
+  #     - AC not providing cold air.
+  #     - Warm air from the AC.
+  #     - No cool air from the AC.
+  #     - AC issue, warm air coming out.
+  #     - Warmth instead of cool air from AC.
+  #     - My AC is blowing warm air.
+  # - lookup: Ac_Dirty_REQ
+  #   examples: |
+  #     - AC needs cleaning.
+  #     - Dirty AC unit.
+  #     - Clean the air conditioner.
+  #     - Dusty AC vents.
+  #     - AC filter is dirty.
+  #     - Dirty air conditioning system.
+  #     - Clean the AC coils.
+  #     - Dust buildup in AC.
+  #     - AC not working well due to dirt.
+  #     - Dirt affecting AC performance
   - lookup: Tv_Dirty_REQ
     examples: |
       - TV needs cleaning.

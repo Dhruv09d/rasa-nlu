@@ -24,6 +24,7 @@ pipeline:
     epochs: 100
   - name: "CRFEntityExtractor"
     epochs: 100
+    pattern: True
     entity_recognition: True
   - name:
       RegexEntityExtractor
@@ -38,9 +39,8 @@ pipeline:
       True
       # use match word boundaries for lookup table
     use_word_boundaries: True
-  - name:
-      EntitySynonymMapper
-      # constrain_similarities: true
+  - name: EntitySynonymMapper
+    # constrain_similarities: true
   - name: ResponseSelector
     epochs: 100
     constrain_similarities: True
