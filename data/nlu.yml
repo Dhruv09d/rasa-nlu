@@ -19,413 +19,893 @@ nlu:
       - good night
       - good morning
       - namaste
-  - intent: AC_Noisy_REQ
+      - Hi there!
+      - Hey!
+      - Hello!
+      - Good morning!
+      - Good afternoon!
+      - Good evening!
+      - Greetings!
+      - Howdy!
+      - Salutations!
+      - Warm wishes!
+      - Bonjour!
+      - Hola!
+      - Ciao!
+      - Aloha!
+      - Namaste!
+      - Shalom!
+      - Konnichiwa!
+      - G'day!
+      - What's up?
+      - How's it going?
+      - How are you doing?
+      - How's your day?
+      - How are things?
+      - What's happening?
+      - Long time no see!
+      - It's great to see you!
+      - It's nice to meet you!
+      - How have you been?
+      - What's new?
+      - Yo!
+      - What's cracking?
+      - How's life treating you?
+      - How do you do?
+      - Hiya!
+      - G'day, mate!
+      - Howdy-do!
+      - Greetings and salutations!
+      - Top of the morning to you!
+      - Hey there, champ!
+      - Well, hello!
+      - What's cooking?
+      - How's the world treating you?
+      - Hi, friend!
+      - Wassup?
+      - Ahoy!
+      - Greetings, Earthling!
+      - How's your day been?
+      - How's everything?
+      - How goes it?
+      - Morning!
+      - Afternoon!
+      - Evening!
+      - Welcome back!
+      - Welcome aboard!
+      - How's your family?
+      - Hi, there, stranger!
+      - Good day to you!
+      - How's the weather?
+      - Hiya, pal!
+      - What's the good word?
+      - How's your week?
+      - What's cooking, good-looking?
+      - How's your health?
+      - Greetings, my friend!
+      - How's your journey?
+      - G'day, matey!
+      - How's the day treating you?
+      - How's work/school going?
+      - Well met!
+      - Hail, good fellow!
+      - How's the business?
+      - How's your pet?
+      - What's the gossip?
+      - How's the family doing?
+      - How's the day treating you so far?
+      - How are your projects coming along?
+      - Hi, my dear!
+      - Hey, buddy!
+      - What's the 411?
+      - How's your vacation?
+      - Hi there, stranger!
+      - How's your weekend?
+      - How's your love life?
+      - How's your garden?
+      - G'day, mate!
+      - How's your hobby going?
+      - How's the commute?
+      - How's your day looking?
+      - Hi, gorgeous!
+      - Hey, beautiful!
+      - How's your appetite?
+      - How's your mood?
+      - What's on your mind?
+      - How's your spirit?
+      - How's your energy level?
+      - How's your day treating you thus far?
+      - How's your heart?
+      - How's your positivity?
+      - How's your karma?
+      - How's your adventure going?
+  - intent: AC_Noisy_REQ-hotel_info
     examples: |
-      - The [air conditioner](Ac_Noisy_hotelInfo) in my room is making an unusual noise.
-      - I can hear a strange noise coming from the [AC](Ac_Noisy_hotelInfo) unit.
-      - The [AC](Ac_Noisy_hotelInfo) is making a rattling sound.
-      - There's a loud clanking noise from the [air conditioner](Ac_Noisy_hotelInfo).
-      - The [AC](Ac_Noisy_hotelInfo) has started making a high-pitched squealing noise.
-      - I'm concerned about the loud banging noise from the [air conditioner](Ac_Noisy_hotelInfo).
-      - The [AC](Ac_Noisy_hotelInfo) is producing an annoying clicking noise.
-      - There's a constant humming noise coming from the [AC](Ac_Noisy_hotelInfo).
-      - I noticed a grinding noise when the [AC](Ac_Noisy_hotelInfo) is running.
-      - The [air conditioner](Ac_Noisy_hotelInfo) is making a whistling noise.
-      - I hear a buzzing noise whenever the [AC](Ac_Noisy_hotelInfo) is on.
-      - The [AC](Ac_Noisy_hotelInfo) is making a gurgling noise.
-      - There's a chirping noise coming from the [air conditioner](Ac_Noisy_hotelInfo).
-      - I'm bothered by the loud hissing noise from the [AC](Ac_Noisy_hotelInfo).
-      - The [AC](Ac_Noisy_hotelInfo) is emitting a repetitive tapping noise.
-      - There's a rhythmic thumping noise when the [AC](Ac_Noisy_hotelInfo) starts.
-      - The [air conditioner](Ac_Noisy_hotelInfo) is making a knocking noise.
-      - I'm experiencing a loud screeching noise from the [AC](Ac_Noisy_hotelInfo).
-      - There's a strange whooshing noise when the [AC](Ac_Noisy_hotelInfo) is running.
-      - The [AC](Ac_Noisy_hotelInfo) is making a vibrating noise.
-      - I noticed a sputtering noise when the [AC](Ac_Noisy_hotelInfo) is on.
-      - The [air conditioner](Ac_Noisy_hotelInfo) is emitting a popping noise.
-      - There's a clattering noise from the [AC's](Ac_Noisy_hotelInfo) compressor.
-      - I'm concerned about the intermittent thudding noise from the [AC](Ac_Noisy_hotelInfo).
-      - The [AC](Ac_Noisy_hotelInfo) is producing a crackling noise.
-      - There's a faint swooshing noise when the [AC](Ac_Noisy_hotelInfo) starts.
-      - I can hear a wheezing noise coming from the [AC](Ac_Noisy_hotelInfo) vents.
-      - The [AC](Ac_Noisy_hotelInfo) is making a knocking and banging noise.
-      - There's a loud clunking noise from the [AC's](Ac_Noisy_hotelInfo) fan.
-      - I noticed a metallic scraping noise from the [AC](Ac_Noisy_hotelInfo).
-      - The [air conditioner](Ac_Noisy_hotelInfo) is making a dripping noise.
-      - There's a persistent tapping noise when the [AC](Ac_Noisy_hotelInfo) is running.
-      - I'm bothered by the whirring noise from the [AC's](Ac_Noisy_hotelInfo) motor.
-      - The [AC](Ac_Noisy_hotelInfo) is emitting a continuous buzzing noise.
-      - There's a faint clicking noise coming from the [AC's](Ac_Noisy_hotelInfo) control panel.
-      - I can hear a faint creaking noise from the [AC's](Ac_Noisy_hotelInfo) housing.
-      - The [AC](Ac_Noisy_hotelInfo) is producing a persistent rumbling noise.
-      - There's a slight thumping noise when the [AC](Ac_Noisy_hotelInfo) starts.
-      - I noticed a whooshing and gurgling noise from the [AC](Ac_Noisy_hotelInfo).
-      - The [air conditioner](Ac_Noisy_hotelInfo) is making a groaning noise.
-      - There's a loud knocking and rattling noise from the [AC's](Ac_Noisy_hotelInfo) ductwork.
-      - I'm concerned about the loud grinding noise when the [AC](Ac_Noisy_hotelInfo) is on.
-      - The [AC](Ac_Noisy_hotelInfo) is emitting a faint whistling and humming noise.
-      - There's a persistent buzzing and clicking noise from the [AC's](Ac_Noisy_hotelInfo) control panel.
-      - I can hear a metallic clanking noise coming from the [AC](Ac_Noisy_hotelInfo) unit.
-      - The [AC](Ac_Noisy_hotelInfo) is making a rhythmic screeching noise.
-      - There's a continuous hissing noise when the [AC](Ac_Noisy_hotelInfo) is running.
-      - I noticed a repetitive tapping and buzzing noise from the [AC](Ac_Noisy_hotelInfo) vents.
-      - The [air conditioner](Ac_Noisy_hotelInfo) is making a clunking and squealing noise.
-      - There's a faint chirping and gurgling noise coming from the [AC](Ac_Noisy_hotelInfo).
-      - The [AC](Ac_Noisy_hotelInfo) unit in my office is making a strange rattling noise.
-      - I woke up last night to the loud clanking sound coming from the [AC](Ac_Noisy_hotelInfo).
-      - The constant buzzing noise from the [AC](Ac_Noisy_hotelInfo) is driving me crazy.
-      - I called the technician because my [AC](Ac_Noisy_hotelInfo) is making a whirring noise.
-      - The [AC](Ac_Noisy_hotelInfo) started making a screeching noise out of nowhere.
-      - The grinding noise from the [AC](Ac_Noisy_hotelInfo) is getting louder each day.
-      - I can't concentrate on work with the [AC](Ac_Noisy_hotelInfo) making such a racket.
-      - The [AC's](Ac_Noisy_hotelInfo) humming noise is disrupting my sleep every night.
+      - the [AC](Ac_Noisy_REQ) is making lot of noise.  
+      - The [air conditioner](Ac_Noisy_REQ) in my room is making an unusual noise.
+      - I can hear a strange noise coming from the [AC](Ac_Noisy_REQ) unit.
+      - The [AC](Ac_Noisy_REQ) is making a rattling sound.
+      - There's a loud clanking noise from the [air conditioner](Ac_Noisy_REQ).
+      - The [AC](Ac_Noisy_REQ) has started making a high-pitched squealing noise.
+      - I'm concerned about the loud banging noise from the [air conditioner](Ac_Noisy_REQ).
+      - The [AC](Ac_Noisy_REQ) is producing an annoying clicking noise.
+      - There's a constant humming noise coming from the [AC](Ac_Noisy_REQ).
+      - I noticed a grinding noise when the [AC](Ac_Noisy_REQ) is running.
+      - The [air conditioner](Ac_Noisy_REQ) is making a whistling noise.
+      - I hear a buzzing noise whenever the [AC](Ac_Noisy_REQ) is on.
+      - The [AC](Ac_Noisy_REQ) is making a gurgling noise.
+      - There's a chirping noise coming from the [air conditioner](Ac_Noisy_REQ).
+      - I'm bothered by the loud hissing noise from the [AC](Ac_Noisy_REQ).
+      - The [AC](Ac_Noisy_REQ) is emitting a repetitive tapping noise.
+      - There's a rhythmic thumping noise when the [AC](Ac_Noisy_REQ) starts.
+      - The [air conditioner](Ac_Noisy_REQ) is making a knocking noise.
+      - I'm experiencing a loud screeching noise from the [AC](Ac_Noisy_REQ).
+      - There's a strange whooshing noise when the [AC](Ac_Noisy_REQ) is running.
+      - The [AC](Ac_Noisy_REQ) is making a vibrating noise.
+      - I noticed a sputtering noise when the [AC](Ac_Noisy_REQ) is on.
+      - The [air conditioner](Ac_Noisy_REQ) is emitting a popping noise.
+      - There's a clattering noise from the [AC's](Ac_Noisy_REQ) compressor.
+      - I'm concerned about the intermittent thudding noise from the [AC](Ac_Noisy_REQ).
+      - The [AC](Ac_Noisy_REQ) is producing a crackling noise.
+      - There's a faint swooshing noise when the [AC](Ac_Noisy_REQ) starts.
+      - I can hear a wheezing noise coming from the [AC](Ac_Noisy_REQ) vents.
+      - The [AC](Ac_Noisy_REQ) is making a knocking and banging noise.
+      - There's a loud clunking noise from the [AC's](Ac_Noisy_REQ) fan.
+      - I noticed a metallic scraping noise from the [AC](Ac_Noisy_REQ).
+      - The [air conditioner](Ac_Noisy_REQ) is making a dripping noise.
+      - There's a persistent tapping noise when the [AC](Ac_Noisy_REQ) is running.
+      - I'm bothered by the whirring noise from the [AC's](Ac_Noisy_REQ) motor.
+      - The [AC](Ac_Noisy_REQ) is emitting a continuous buzzing noise.
+      - There's a faint clicking noise coming from the [AC's](Ac_Noisy_REQ) control panel.
+      - I can hear a faint creaking noise from the [AC's](Ac_Noisy_REQ) housing.
+      - The [AC](Ac_Noisy_REQ) is producing a persistent rumbling noise.
+      - There's a slight thumping noise when the [AC](Ac_Noisy_REQ) starts.
+      - I noticed a whooshing and gurgling noise from the [AC](Ac_Noisy_REQ).
+      - The [air conditioner](Ac_Noisy_REQ) is making a groaning noise.
+      - There's a loud knocking and rattling noise from the [AC's](Ac_Noisy_REQ) ductwork.
+      - I'm concerned about the loud grinding noise when the [AC](Ac_Noisy_REQ) is on.
+      - The [AC](Ac_Noisy_REQ) is emitting a faint whistling and humming noise.
+      - There's a persistent buzzing and clicking noise from the [AC's](Ac_Noisy_REQ) control panel.
+      - I can hear a metallic clanking noise coming from the [AC](Ac_Noisy_REQ) unit.
+      - The [AC](Ac_Noisy_REQ) is making a rhythmic screeching noise.
+      - There's a continuous hissing noise when the [AC](Ac_Noisy_REQ) is running.
+      - I noticed a repetitive tapping and buzzing noise from the [AC](Ac_Noisy_REQ) vents.
+      - The [air conditioner](Ac_Noisy_REQ) is making a clunking and squealing noise.
+      - There's a faint chirping and gurgling noise coming from the [AC](Ac_Noisy_REQ).
+      - The [AC](Ac_Noisy_REQ) unit in my office is making a strange rattling noise.
+      - I woke up last night to the loud clanking sound coming from the [AC](Ac_Noisy_REQ).
+      - The constant buzzing noise from the [AC](Ac_Noisy_REQ) is driving me crazy.
+      - I called the technician because my [AC](Ac_Noisy_REQ) is making a whirring noise.
+      - The [AC](Ac_Noisy_REQ) started making a screeching noise out of nowhere.
+      - The grinding noise from the [AC](Ac_Noisy_REQ) is getting louder each day.
+      - I can't concentrate on work with the [AC](Ac_Noisy_REQ) making such a racket.
+      - The [AC's](Ac_Noisy_REQ) humming noise is disrupting my sleep every night.
       - I suspect there's something wrong with the fan as it's making a clicking noise.
-      - The [AC](Ac_Noisy_hotelInfo) unit in the living room is producing an annoying squealing noise.
-      - I noticed a knocking noise coming from the [AC](Ac_Noisy_hotelInfo) vent.
-      - The [air conditioner](Ac_Noisy_hotelInfo) is making a strange gurgling noise.
-      - The screeching noise from the [AC](Ac_Noisy_hotelInfo) is unbearable.
-      - I had to turn off the [AC](Ac_Noisy_hotelInfo) because of the loud banging noise.
-      - The [AC](Ac_Noisy_hotelInfo) is making an odd hissing noise that it never made before.
-      - The clattering noise from the [AC](Ac_Noisy_hotelInfo) is giving me a headache.
-      - My [AC](Ac_Noisy_hotelInfo) started making a bubbling noise, which is concerning.
-      - The whooshing noise from the [AC](Ac_Noisy_hotelInfo) is too loud for a new unit.
-      - I called for maintenance as the [AC](Ac_Noisy_hotelInfo) is making a clicking noise.
-      - The [AC's](Ac_Noisy_hotelInfo) gurgling noise indicates a possible issue with the coolant.
-      - The vibrating noise from the [AC](Ac_Noisy_hotelInfo) is incredibly annoying.
-      - My old [AC](Ac_Noisy_hotelInfo) is making a groaning noise, signaling it might break down soon.
-      - The [AC](Ac_Noisy_hotelInfo) in the server room is making an unsettling rumbling noise.
-      - I can't relax with the [AC](Ac_Noisy_hotelInfo) making such a disturbing noise.
-      - The knocking noise from the [AC](Ac_Noisy_hotelInfo) is keeping me up at night.
-      - The [AC](Ac_Noisy_hotelInfo) unit on the rooftop is making a clanging noise.
-      - I noticed a high-pitched noise coming from the [AC](Ac_Noisy_hotelInfo) compressor.
-      - The [AC](Ac_Noisy_hotelInfo) has been making a clicking noise for days.
-      - The strange noise coming from the [AC](Ac_Noisy_hotelInfo) vent is worrisome.
-      - The [AC's](Ac_Noisy_hotelInfo) whining noise indicates a possible motor issue.
-      - I scheduled a maintenance checkup because the [AC](Ac_Noisy_hotelInfo) is making an odd grinding noise.
-      - The loud thumping noise from the [AC](Ac_Noisy_hotelInfo) is giving me sleepless nights.
-      - The [AC](Ac_Noisy_hotelInfo) unit in the office is making an irritating buzzing noise.
-      - I need to get the [AC](Ac_Noisy_hotelInfo) fixed; it's making a clinking noise.
-      - The [AC's](Ac_Noisy_hotelInfo) screeching noise suggests a problem with the belt.
-      - My [AC](Ac_Noisy_hotelInfo) started making a rattling noise after the power outage.
-      - The strange clicking noise from the [AC](Ac_Noisy_hotelInfo) is getting louder.
-      - I can't concentrate on my studies with the [AC](Ac_Noisy_hotelInfo) making such a racket.
-      - The [AC](Ac_Noisy_hotelInfo) unit in the bedroom is making an annoying ticking noise.
+      - The [AC](Ac_Noisy_REQ) unit in the living room is producing an annoying squealing noise.
+      - I noticed a knocking noise coming from the [AC](Ac_Noisy_REQ) vent.
+      - The [air conditioner](Ac_Noisy_REQ) is making a strange gurgling noise.
+      - The screeching noise from the [AC](Ac_Noisy_REQ) is unbearable.
+      - I had to turn off the [AC](Ac_Noisy_REQ) because of the loud banging noise.
+      - The [AC](Ac_Noisy_REQ) is making an odd hissing noise that it never made before.
+      - The clattering noise from the [AC](Ac_Noisy_REQ) is giving me a headache.
+      - My [AC](Ac_Noisy_REQ) started making a bubbling noise, which is concerning.
+      - The whooshing noise from the [AC](Ac_Noisy_REQ) is too loud for a new unit.
+      - I called for maintenance as the [AC](Ac_Noisy_REQ) is making a clicking noise.
+      - The [AC's](Ac_Noisy_REQ) gurgling noise indicates a possible issue with the coolant.
+      - The vibrating noise from the [AC](Ac_Noisy_REQ) is incredibly annoying.
+      - My old [AC](Ac_Noisy_REQ) is making a groaning noise, signaling it might break down soon.
+      - The [AC](Ac_Noisy_REQ) in the server room is making an unsettling rumbling noise.
+      - I can't relax with the [AC](Ac_Noisy_REQ) making such a disturbing noise.
+      - The knocking noise from the [AC](Ac_Noisy_REQ) is keeping me up at night.
+      - The [AC](Ac_Noisy_REQ) unit on the rooftop is making a clanging noise.
+      - I noticed a high-pitched noise coming from the [AC](Ac_Noisy_REQ) compressor.
+      - The [AC](Ac_Noisy_REQ) has been making a clicking noise for days.
+      - The strange noise coming from the [AC](Ac_Noisy_REQ) vent is worrisome.
+      - The [AC's](Ac_Noisy_REQ) whining noise indicates a possible motor issue.
+      - I scheduled a maintenance checkup because the [AC](Ac_Noisy_REQ) is making an odd grinding noise.
+      - The loud thumping noise from the [AC](Ac_Noisy_REQ) is giving me sleepless nights.
+      - The [AC](Ac_Noisy_REQ) unit in the office is making an irritating buzzing noise.
+      - I need to get the [AC](Ac_Noisy_REQ) fixed; it's making a clinking noise.
+      - The [AC's](Ac_Noisy_REQ) screeching noise suggests a problem with the belt.
+      - My [AC](Ac_Noisy_REQ) started making a rattling noise after the power outage.
+      - The strange clicking noise from the [AC](Ac_Noisy_REQ) is getting louder.
+      - I can't concentrate on my studies with the [AC](Ac_Noisy_REQ) making such a racket.
+      - The [AC](Ac_Noisy_REQ) unit in the bedroom is making an annoying ticking noise.
       - I woke up to a dripping noise coming from the AC.
-      - The [AC's](Ac_Noisy_hotelInfo) whirring noise is louder than usual.
-      - My [AC](Ac_Noisy_hotelInfo) is making a strange humming noise that's never been there before.
-      - The loud banging noise from the [AC](Ac_Noisy_hotelInfo) is concerning.
-      - I called the technician because my [AC](Ac_Noisy_hotelInfo) is making a screeching noise.
-      - The [AC's](Ac_Noisy_hotelInfo) clicking noise indicates a possible electrical issue.
-      - The rustling noise from the [AC](Ac_Noisy_hotelInfo) vent is irritating.
-      - I need to replace the [AC](Ac_Noisy_hotelInfo) filter as it's making a wheezing noise.
-      - The [AC](Ac_Noisy_hotelInfo) in the car is making an odd grinding noise.
-      - The [AC's](Ac_Noisy_hotelInfo) whining noise is getting on my nerves.
-      - My [AC](Ac_Noisy_hotelInfo) started making a knocking noise after the recent maintenance.
-  - intent: Ac_Cooling_REQ
+      - The [AC's](Ac_Noisy_REQ) whirring noise is louder than usual.
+      - My [AC](Ac_Noisy_REQ) is making a strange humming noise that's never been there before.
+      - The loud banging noise from the [AC](Ac_Noisy_REQ) is concerning.
+      - I called the technician because my [AC](Ac_Noisy_REQ) is making a screeching noise.
+      - The [AC's](Ac_Noisy_REQ) clicking noise indicates a possible electrical issue.
+      - The rustling noise from the [AC](Ac_Noisy_REQ) vent is irritating.
+      - I need to replace the [AC](Ac_Noisy_REQ) filter as it's making a wheezing noise.
+      - The [AC](Ac_Noisy_REQ) in the car is making an odd grinding noise.
+      - The [AC's](Ac_Noisy_REQ) whining noise is getting on my nerves.
+      - My [AC](Ac_Noisy_REQ) started making a knocking noise after the recent maintenance.
+  - intent: Ac_Cooling_REQ-hotel_info
     examples: |
-      - the [AC](AC_Cooling_hotelInfo) is making lot of noise.  
-      - My [air conditioner](AC_Cooling_hotelInfo) is not cooling properly.
-      - The [AC](AC_Cooling_hotelInfo) in my room is blowing warm air.
-      - There's no cold air coming from the [AC](AC_Cooling_hotelInfo).
-      - The [air conditioner](AC_Cooling_hotelInfo) is not providing any cooling.
-      - My [AC](AC_Cooling_hotelInfo) unit is running, but it's not cooling the room.
-      - The room remains hot despite the [AC](AC_Cooling_hotelInfo) being on.
-      - The [air conditioner](AC_Cooling_hotelInfo) is not effective in cooling the space.
-      - I set the [AC](AC_Cooling_hotelInfo) to a lower temperature, but it's still not cooling.
-      - The [AC's](AC_Cooling_hotelInfo) cooling capacity seems to have decreased.
-      - There's minimal cooling from the [air conditioner](AC_Cooling_hotelInfo).
-      - The [AC](AC_Cooling_hotelInfo) is struggling to cool the room.
-      - The [air conditioner](AC_Cooling_hotelInfo) doesn't feel cool as it used to.
-      - Despite the [AC](AC_Cooling_hotelInfo) being on for a while, it's not cooling down.
-      - The room temperature is not dropping with the [AC](AC_Cooling_hotelInfo) running.
-      - I've tried different settings, but the [AC](AC_Cooling_hotelInfo) is still not cooling.
-      - There's a lack of cooling performance from the [air conditioner](AC_Cooling_hotelInfo).
-      - The [AC's](AC_Cooling_hotelInfo) cooling function is not working correctly.
-      - I feel warm air instead of cold air from the [AC](AC_Cooling_hotelInfo).
-      - The [AC](AC_Cooling_hotelInfo) compressor is running, but there's no cooling effect.
-      - The [air conditioner's](AC_Cooling_hotelInfo) cooling seems to have stopped.
-      - The room remains uncomfortably warm with the [AC](AC_Cooling_hotelInfo) on.
-      - The [AC](AC_Cooling_hotelInfo) is blowing air, but it's not cooling the room.
-      - The [AC's](AC_Cooling_hotelInfo) cooling power has decreased significantly.
-      - I can hear the [AC](AC_Cooling_hotelInfo) running, but it's not cooling.
-      - The [air conditioner](AC_Cooling_hotelInfo) is not maintaining a cool temperature.
-      - The cooling performance of the [AC](AC_Cooling_hotelInfo) has deteriorated.
-      - Despite setting the [AC](AC_Cooling_hotelInfo) to the lowest temperature, it's not cooling.
-      - The room temperature remains high with the [AC](AC_Cooling_hotelInfo) on.
-      - The [AC](AC_Cooling_hotelInfo) is not delivering the expected cooling effect.
-      - The [air conditioner's](AC_Cooling_hotelInfo) cooling function is not functioning properly.
-      - I'm experiencing poor cooling from the [AC](AC_Cooling_hotelInfo).
-      - The [AC](AC_Cooling_hotelInfo) is not able to cool the room effectively.
-      - The cooling capacity of the [AC](AC_Cooling_hotelIn  # - lookup: Ac_Assistance_hotelInfo
-      - The [AC](AC_Cooling_hotelInfo) unit is on, but it's not providing any cooling relief.
-      - The [air conditioner](AC_Cooling_hotelInfo) is running, but it's not cooling as it should.
-      - The room feels stuffy and warm with the [AC](AC_Cooling_hotelInfo) running.
-      - The [AC](AC_Cooling_hotelInfo) is not cooling the room evenly.
-      - Despite multiple attempts, the [AC](AC_Cooling_hotelInfo) is still not cooling.
-      - I've checked the settings, but the [AC](AC_Cooling_hotelInfo) is not cooling.
-      - There's a noticeable lack of cooling from the [air conditioner](AC_Cooling_hotelInfo).
-      - The [AC](AC_Cooling_hotelInfo) doesn't seem to be removing heat from the room.
-      - The room remains uncomfortably hot despite the [AC](AC_Cooling_hotelInfo) being on.
-      - The cooling performance of the [AC](AC_Cooling_hotelInfo) has dropped drastically.
-      - The [air conditioner's](AC_Cooling_hotelInfo) cooling capability has decreased.
-      - The [AC](AC_Cooling_hotelInfo) is not maintaining a comfortable temperature.
-      - There's no significant temperature change with the [AC](AC_Cooling_hotelInfo) running.
-      - The [AC's](AC_Cooling_hotelInfo) cooling feature appears to be malfunctioning.
-      - The [air conditioner's](AC_Cooling_hotelInfo) cooling cycle is not functioning properly.
-      - I've cleaned the filters, but the [AC](AC_Cooling_hotelInfo) is still not cooling.
-      - The [AC](AC_Cooling_hotelInfo) is not able to provide the desired cooling effect.
-  - intent: Ac_Dirty_REQ
+      - My [air conditioner](AC_Cooling_REQ) is not cooling properly.
+      - The [AC](AC_Cooling_REQ) in my room is blowing warm air.
+      - There's no cold air coming from the [AC](AC_Cooling_REQ).
+      - The [air conditioner](AC_Cooling_REQ) is not providing any cooling.
+      - My [AC](AC_Cooling_REQ) unit is running, but it's not cooling the room.
+      - The room remains hot despite the [AC](AC_Cooling_REQ) being on.
+      - The [air conditioner](AC_Cooling_REQ) is not effective in cooling the space.
+      - I set the [AC](AC_Cooling_REQ) to a lower temperature, but it's still not cooling.
+      - The [AC's](AC_Cooling_REQ) cooling capacity seems to have decreased.
+      - There's minimal cooling from the [air conditioner](AC_Cooling_REQ).
+      - The [AC](AC_Cooling_REQ) is struggling to cool the room.
+      - The [air conditioner](AC_Cooling_REQ) doesn't feel cool as it used to.
+      - Despite the [AC](AC_Cooling_REQ) being on for a while, it's not cooling down.
+      - The room temperature is not dropping with the [AC](AC_Cooling_REQ) running.
+      - I've tried different settings, but the [AC](AC_Cooling_REQ) is still not cooling.
+      - There's a lack of cooling performance from the [air conditioner](AC_Cooling_REQ).
+      - The [AC's](AC_Cooling_REQ) cooling function is not working correctly.
+      - I feel warm air instead of cold air from the [AC](AC_Cooling_REQ).
+      - The [AC](AC_Cooling_REQ) compressor is running, but there's no cooling effect.
+      - The [air conditioner's](AC_Cooling_REQ) cooling seems to have stopped.
+      - The room remains uncomfortably warm with the [AC](AC_Cooling_REQ) on.
+      - The [AC](AC_Cooling_REQ) is blowing air, but it's not cooling the room.
+      - The [AC's](AC_Cooling_REQ) cooling power has decreased significantly.
+      - I can hear the [AC](AC_Cooling_REQ) running, but it's not cooling.
+      - The [air conditioner](AC_Cooling_REQ) is not maintaining a cool temperature.
+      - The cooling performance of the [AC](AC_Cooling_REQ) has deteriorated.
+      - Despite setting the [AC](AC_Cooling_REQ) to the lowest temperature, it's not cooling.
+      - The room temperature remains high with the [AC](AC_Cooling_REQ) on.
+      - The [AC](AC_Cooling_REQ) is not delivering the expected cooling effect.
+      - The [air conditioner's](AC_Cooling_REQ) cooling function is not functioning properly.
+      - I'm experiencing poor cooling from the [AC](AC_Cooling_REQ).
+      - The [AC](AC_Cooling_REQ) is not able to cool the room effectively.
+      - The cooling capacity of the [AC](AC_Cooling_hotelIn  # - lookup: Ac_Assistance_REQ
+      - The [AC](AC_Cooling_REQ) unit is on, but it's not providing any cooling relief.
+      - The [air conditioner](AC_Cooling_REQ) is running, but it's not cooling as it should.
+      - The room feels stuffy and warm with the [AC](AC_Cooling_REQ) running.
+      - The [AC](AC_Cooling_REQ) is not cooling the room evenly.
+      - Despite multiple attempts, the [AC](AC_Cooling_REQ) is still not cooling.
+      - I've checked the settings, but the [AC](AC_Cooling_REQ) is not cooling.
+      - There's a noticeable lack of cooling from the [air conditioner](AC_Cooling_REQ).
+      - The [AC](AC_Cooling_REQ) doesn't seem to be removing heat from the room.
+      - The room remains uncomfortably hot despite the [AC](AC_Cooling_REQ) being on.
+      - The cooling performance of the [AC](AC_Cooling_REQ) has dropped drastically.
+      - The [air conditioner's](AC_Cooling_REQ) cooling capability has decreased.
+      - The [AC](AC_Cooling_REQ) is not maintaining a comfortable temperature.
+      - There's no significant temperature change with the [AC](AC_Cooling_REQ) running.
+      - The [AC's](AC_Cooling_REQ) cooling feature appears to be malfunctioning.
+      - The [air conditioner's](AC_Cooling_REQ) cooling cycle is not functioning properly.
+      - I've cleaned the filters, but the [AC](AC_Cooling_REQ) is still not cooling.
+      - The [AC](AC_Cooling_REQ) is not able to provide the desired cooling effect.
+      - My [air conditioner](AC_Cooling_REQ) is not cooling well.
+      - The cooling performance of my [AC](AC_Cooling_REQ) has been subpar.
+      - I've noticed that my [AC](AC_Cooling_REQ) is struggling to provide sufficient cooling.
+      - There seems to be an issue with the cooling capacity of my [air conditioner](AC_Cooling_REQ).
+      - I'm facing problems with the cooling efficiency of my [AC](AC_Cooling_REQ).
+      - The cooling output of my [air conditioner](AC_Cooling_REQ) is insufficient.
+      - I've observed that my [AC](AC_Cooling_REQ) is not cooling as it should.
+      - The cooling function of my [AC](AC_Cooling_REQ) appears to be malfunctioning.
+      - There's a noticeable drop in the cooling performance of my [air conditioner](AC_Cooling_REQ).
+      - My [AC](AC_Cooling_REQ) is running, but the cooling is not as effective as before.
+      - The cooling output of my [air conditioner](AC_Cooling_REQ) has decreased significantly.
+      - The temperature in the room remains high despite the [AC](AC_Cooling_REQ) being on.
+      - My [AC](AC_Cooling_REQ) doesn't seem to be able to cool the room adequately.
+      - There's a lack of cool air coming from the vents of my [air conditioner](AC_Cooling_REQ).
+      - The cooling seems to be uneven throughout the room when the [AC](AC_Cooling_REQ) is on.
+      - I've tried adjusting the settings, but the cooling remains unsatisfactory.
+      - My [AC](AC_Cooling_REQ) is blowing warm air instead of cool air.
+      - The cooling problem in my [air conditioner](AC_Cooling_REQ) has persisted for a while now.
+      - The [AC](AC_Cooling_REQ) compressor appears to be running, but the cooling effect is minimal.
+      - The cooling coils of my [AC](AC_Cooling_REQ) might be dirty or blocked, affecting its efficiency.
+      - I suspect a refrigerant leak might be causing the cooling issue in my [AC](AC_Cooling_REQ).
+      - The fan of my [AC](AC_Cooling_REQ) is working, but the cooling is not up to the mark.
+      - The [thermostat](AC_Cooling_REQ) settings don't seem to be influencing the cooling output.
+      - The air filter might need cleaning or replacement to improve cooling.
+      - The [air conditioner](AC_Cooling_REQ) is making unusual noises, and the cooling is affected.
+      - My [AC](AC_Cooling_REQ) struggles to cool the room during particularly hot days.
+      - The cooling problem seems to worsen when the [AC](AC_Cooling_REQ) runs continuously.
+      - I've checked the vents, but they don't seem to be obstructed.
+      - The [AC](AC_Cooling_REQ) seems to be taking longer to cool the room than it used to.
+      - The cooling issue persists despite regular maintenance.
+      - My [AC](AC_Cooling_REQ) cools fine for a while, but then the cooling diminishes.
+      - The cooling fins of the outdoor unit might be bent, affecting performance.
+      - The cooling problem started after a recent power outage.
+      - I suspect there might be an issue with the [AC's](AC_Cooling_REQ) compressor or condenser.
+      - The cooling efficiency drops when the [AC's](AC_Cooling_REQ) blower is set to higher speeds.
+      - My [AC's](AC_Cooling_REQ) cooling performance is inconsistent, sometimes better than others.
+      - The [air conditioner](AC_Cooling_REQ) seems to be cycling on and off frequently without adequate cooling.
+      - I've noticed frost buildup on the [AC's](AC_Cooling_REQ) outdoor unit, impacting cooling.
+      - The [AC's](AC_Cooling_REQ) cooling capacity seems to have reduced since last season.
+      - My [AC](AC_Cooling_REQ) cools better during the night than during the day.
+      - The cooling problem could be due to an airflow obstruction in the ducts.
+      - I suspect the evaporator coil might be dirty, hindering cooling.
+      - My [AC's](AC_Cooling_REQ) cooling issue started after a recent power surge.
+      - There might be a problem with the expansion valve affecting the cooling.
+      - The cooling problem worsens when the [AC](AC_Cooling_REQ) filter gets clogged.
+      - I've tried adjusting the [thermostat](AC_Cooling_REQ), but the cooling remains inadequate.
+      - The [AC's](AC_Cooling_REQ) cooling performance drops when the outdoor unit is shaded.
+      - I'm experiencing uneven cooling in different areas of the room.
+      - The [AC's](AC_Cooling_REQ) cooling problem is causing discomfort and inconvenience during hot days.
+  - intent: Ac_Dirty_REQ-hotel_info
     examples: |
-      - i think the [ac](Ac_Dirty_hotelInfo) looks very dirty I think think the air is blocked
-      - my [ac](Ac_Dirty_hotelInfo) smelling bad.
-      - my [ac](Ac_Dirty_hotelInfo) is quite dirty.
-      - My [air conditioner](Ac_Dirty_hotelInfo) desperately needs cleaning.
-      - The [AC](Ac_Dirty_hotelInfo) unit is filled with dust and dirt, and it's not cleaned.
-      - I can see dirt and debris in the [air conditioner's](Ac_Dirty_hotelInfo) vents.
-      - The [AC's](Ac_Dirty_hotelInfo) filters are clogged and not cleaned.
-      - It's been a long time since the [AC](Ac_Dirty_hotelInfo) was last cleaned.
-      - The [air conditioner's](Ac_Dirty_hotelInfo) coils are covered in grime and not cleaned.
-      - I've noticed mold and mildew in the [AC](Ac_Dirty_hotelInfo), indicating it's not cleaned.
-      - The [AC's](Ac_Dirty_hotelInfo) cooling fins are blocked with dust and not cleaned.
-      - The lack of regular cleaning has affected the [AC's](Ac_Dirty_hotelInfo) performance.
-      - I can smell a musty odor from the [AC](Ac_Dirty_hotelInfo), indicating it's not cleaned.
-      - The [air conditioner's](Ac_Dirty_hotelInfo) exterior is dusty and not cleaned.
-      - I've noticed a decrease in air quality because the [AC](Ac_Dirty_hotelInfo) is not cleaned.
-      - The [AC's](Ac_Dirty_hotelInfo) drainage system is clogged due to lack of cleaning.
-      - Dust particles are floating around the room when the [AC](Ac_Dirty_hotelInfo) is on and not cleaned.
-      - The [AC's](Ac_Dirty_hotelInfo) blades are covered in dirt and not cleaned.
-      - I suspect the lack of cleaning is affecting the [AC's](Ac_Dirty_hotelInfo) efficiency.
-      - The [AC's](Ac_Dirty_hotelInfo) air flow seems restricted due to dirt buildup and not cleaned.
-      - The [AC's](Ac_Dirty_hotelInfo) fan is making noise, possibly due to lack of cleaning.
-      - I can see cobwebs and debris inside the [AC](Ac_Dirty_hotelInfo) unit, indicating it's not cleaned.
-      - The [air conditioner](Ac_Dirty_hotelInfo) is not cooling efficiently because it's not cleaned.
-      - The [AC's](Ac_Dirty_hotelInfo) vents are partially blocked by dust and not cleaned.
-      - I've noticed a decrease in cooling capacity due to lack of [AC's](Ac_Dirty_hotelInfo) cleaning.
-      - The lack of cleaning has resulted in reduced airflow from the [AC](Ac_Dirty_hotelInfo).
-      - The [air conditioner's](Ac_Dirty_hotelInfo) fins are bent and not cleaned.
-      - The [AC's](Ac_Dirty_hotelInfo) remote control is sticky and dusty due to lack of cleaning.
-      - I can see dirt and pet hair stuck to the [AC's](Ac_Dirty_hotelInfo) grilles and not cleaned.
-      - The [AC's](Ac_Dirty_hotelInfo) condenser unit is surrounded by debris and not cleaned.
-      - The lack of [AC's](Ac_Dirty_hotelInfo) cleaning has led to an increase in allergens in the air.
-      - I suspect the [AC's](Ac_Dirty_hotelInfo) lack of cleaning is causing it to use more energy.
-      - The [air conditioner's](Ac_Dirty_hotelInfo) vents are emitting a stale smell because it's not cleaned.
-      - I'm concerned that the lack of cleaning might damage the [AC's](Ac_Dirty_hotelInfo).
-      - The [AC's](Ac_Dirty_hotelInfo) efficiency has decreased significantly due to lack of cleaning.
-      - The lack of [AC's](Ac_Dirty_hotelInfo) cleaning might be contributing to poor indoor air quality.
-      - I can see dust particles flying out of the [AC](Ac_Dirty_hotelInfo) when it's running and not cleaned.
-      - The [AC's](Ac_Dirty_hotelInfo) cooling coils are covered in grime, indicating it's not cleaned.
-      - The lack of cleaning has caused the [AC](Ac_Dirty_hotelInfo) to accumulate dirt and dust.
-      - The [air conditioner's](Ac_Dirty_hotelInfo) fan blades are coated with dust and not cleaned.
-      - I've noticed a decrease in the [AC's](Ac_Dirty_hotelInfo) airflow due to lack of cleaning.
-      - The lack of [AC's](Ac_Dirty_hotelInfo) cleaning has resulted in reduced cooling performance.
-      - The [air conditioner's](Ac_Dirty_hotelInfo) louvers are not moving smoothly because it's not cleaned.
-      - I suspect the [AC's](Ac_Dirty_hotelInfo) lack of cleaning is affecting its lifespan.
-      - The [AC's](Ac_Dirty_hotelInfo) vents are dusty and need cleaning.
-      - The lack of cleaning has made the [AC](Ac_Dirty_hotelInfo) less effective at cooling the room.
-      - I can see water dripping from the [AC](Ac_Dirty_hotelInfo) due to clogged drainage and not cleaned.
-      - The [AC's](Ac_Dirty_hotelInfo) air filters are heavily soiled and not cleaned.
-      - The lack of cleaning might be causing the [AC's](Ac_Dirty_hotelInfo) to produce strange noises.
-      - I've noticed a decrease in the [AC's](Ac_Dirty_hotelInfo) cooling capacity due to lack of cleaning.
-      - The [air conditioner's](Ac_Dirty_hotelInfo) coils are covered in dust, indicating it's not cleaned.
-      - The lack of [AC's](Ac_Dirty_hotelInfo) cleaning has led to poor air circulation in the room.
-      - I suspect the [AC's](Ac_Dirty_hotelInfo) lack of cleaning is contributing to increased energy consumption.
-  - intent: Ac_Assistance_REQ
+      - There is strange pungent smell from [ac](Ac_Dirty_REQ).
+      - I cant stay where the [ac](Ac_Dirty_REQ) is this dirty.
+      - I think the [ac](Ac_Dirty_REQ) looks very dirty I think think the air is blocked.
+      - my [ac](Ac_Dirty_REQ) smelling bad.
+      - my [ac](Ac_Dirty_REQ) is quite dirty.
+      - My [air conditioner](Ac_Dirty_REQ) desperately needs cleaning.
+      - The [AC](Ac_Dirty_REQ) unit is filled with dust and dirt, and it's not cleaned.
+      - I can see dirt and debris in the [air conditioner's](Ac_Dirty_REQ) vents.
+      - The [AC's](Ac_Dirty_REQ) filters are clogged and not cleaned.
+      - It's been a long time since the [AC](Ac_Dirty_REQ) was last cleaned.
+      - The [air conditioner's](Ac_Dirty_REQ) coils are covered in grime and not cleaned.
+      - I've noticed mold and mildew in the [AC](Ac_Dirty_REQ), indicating it's not cleaned.
+      - The [AC's](Ac_Dirty_REQ) cooling fins are blocked with dust and not cleaned.
+      - The lack of regular cleaning has affected the [AC's](Ac_Dirty_REQ) performance.
+      - I can smell a musty odor from the [AC](Ac_Dirty_REQ), indicating it's not cleaned.
+      - The [air conditioner's](Ac_Dirty_REQ) exterior is dusty and not cleaned.
+      - I've noticed a decrease in air quality because the [AC](Ac_Dirty_REQ) is not cleaned.
+      - The [AC's](Ac_Dirty_REQ) drainage system is clogged due to lack of cleaning.
+      - Dust particles are floating around the room when the [AC](Ac_Dirty_REQ) is on and not cleaned.
+      - The [AC's](Ac_Dirty_REQ) blades are covered in dirt and not cleaned.
+      - I suspect the lack of cleaning is affecting the [AC's](Ac_Dirty_REQ) efficiency.
+      - The [AC's](Ac_Dirty_REQ) air flow seems restricted due to dirt buildup and not cleaned.
+      - The [AC's](Ac_Dirty_REQ) fan throwing dirt, possibly due to lack of cleaning.
+      - I can see cobwebs and debris inside the [AC](Ac_Dirty_REQ) unit, indicating it's not cleaned.
+      - The [air conditioner](Ac_Dirty_REQ) is not cooling efficiently because it's not cleaned.
+      - The [AC's](Ac_Dirty_REQ) vents are partially blocked by dust and not cleaned.
+      - I've noticed a decrease in cooling capacity due to lack of [AC's](Ac_Dirty_REQ) cleaning.
+      - The lack of cleaning has resulted in reduced airflow from the [AC](Ac_Dirty_REQ).
+      - The [air conditioner's](Ac_Dirty_REQ) fins are bent and not cleaned.
+      - The [AC's](Ac_Dirty_REQ) remote control is sticky and dusty due to lack of cleaning.
+      - I can see dirt and pet hair stuck to the [AC's](Ac_Dirty_REQ) grilles and not cleaned.
+      - The [AC's](Ac_Dirty_REQ) condenser unit is surrounded by debris and not cleaned.
+      - The lack of [AC's](Ac_Dirty_REQ) cleaning has led to an increase in allergens in the air.
+      - I suspect the [AC's](Ac_Dirty_REQ) lack of cleaning is causing it to use more energy.
+      - The [air conditioner's](Ac_Dirty_REQ) vents are emitting a stale smell because it's not cleaned.
+      - I'm concerned that the lack of cleaning might damage the [AC's](Ac_Dirty_REQ).
+      - The [AC's](Ac_Dirty_REQ) efficiency has decreased significantly due to lack of cleaning.
+      - The lack of [AC's](Ac_Dirty_REQ) cleaning might be contributing to poor indoor air quality.
+      - I can see dust particles flying out of the [AC](Ac_Dirty_REQ) when it's running and not cleaned.
+      - The [AC's](Ac_Dirty_REQ) cooling coils are covered in grime, indicating it's not cleaned.
+      - The lack of cleaning has caused the [AC](Ac_Dirty_REQ) to accumulate dirt and dust.
+      - The [air conditioner's](Ac_Dirty_REQ) fan blades are coated with dust and not cleaned.
+      - I've noticed a decrease in the [AC's](Ac_Dirty_REQ) airflow due to lack of cleaning.
+      - The lack of [AC's](Ac_Dirty_REQ) cleaning has resulted in reduced cooling performance.
+      - The [air conditioner's](Ac_Dirty_REQ) louvers are not moving smoothly because it's not cleaned.
+      - I suspect the [AC's](Ac_Dirty_REQ) lack of cleaning is affecting its lifespan.
+      - The [AC's](Ac_Dirty_REQ) vents are dusty and need cleaning.
+      - The lack of cleaning has made the [AC](Ac_Dirty_REQ) less effective at cooling the room.
+      - I can see water dripping from the [AC](Ac_Dirty_REQ) due to clogged drainage and not cleaned.
+      - The [AC's](Ac_Dirty_REQ) air filters are heavily soiled and not cleaned.
+      - The lack of cleaning might be causing the [AC's](Ac_Dirty_REQ) to produce strange noises.
+      - I've noticed a decrease in the [AC's](Ac_Dirty_REQ) cooling capacity due to lack of cleaning.
+      - The [air conditioner's](Ac_Dirty_REQ) coils are covered in dust, indicating it's not cleaned.
+      - The lack of [AC's](Ac_Dirty_REQ) cleaning has led to poor air circulation in the room.
+      - I suspect the [AC's](Ac_Dirty_REQ) lack of cleaning is contributing to increased energy consumption.
+      - Excuse me, could you please arrange for someone to clean the dirty [AC's](Ac_Dirty_REQ) in my room?
+      - Is there any way to have the dirty [AC's](Ac_Dirty_REQ) in my room cleaned as soon as possible?
+      - Could you send someone to clean the [AC's](Ac_Dirty_REQ) unit in my room? It seems quite dirty.
+      - I noticed that the [AC's](Ac_Dirty_REQ) in my room is dirty, and I was wondering if it could be cleaned.
+      - I'd appreciate it if you could have the maintenance staff clean the dirty [AC's](Ac_Dirty_REQ) in my room.
+      - Can you please schedule a cleaning session for the [AC's](Ac_Dirty_REQ) in my room? It's quite dirty.
+      - I'd like to request a cleaning service for the dirty [AC's](Ac_Dirty_REQ) in my hotel room.
+      - I'm experiencing discomfort due to the dirty [AC's](Ac_Dirty_REQ) in my room. Could it be cleaned promptly?
+      - I'd like to lodge a request for cleaning the dirty [AC's](Ac_Dirty_REQ) in my hotel room.
+      - Is there a procedure for getting the dirty [AC's](Ac_Dirty_REQ) in my room cleaned?
+      - I hope you can assist me in arranging a cleaning service for the dirty [AC's](Ac_Dirty_REQ).
+      - The [AC's](Ac_Dirty_REQ) in my room appears to be quite dirty, and I would like it to be cleaned.
+      - Can you send someone to clean the dirty [AC's](Ac_Dirty_REQ) in my room at your earliest convenience?
+      - I'm having issues with the dirty [AC's](Ac_Dirty_REQ) in my room, and I need it to be cleaned urgently.
+      - I'd like to make a formal request to have the dirty [AC's](Ac_Dirty_REQ) in my room cleaned.
+      - Could you please prioritize the cleaning of the dirty [AC's](Ac_Dirty_REQ) in my room?
+      - I'm not able to use the [AC's](Ac_Dirty_REQ) due to its dirty condition. Can you arrange for cleaning?
+      - I apologize for the inconvenience, but the [AC's](Ac_Dirty_REQ) in my room requires cleaning.
+      - Can you provide an estimate of when the dirty [AC's](Ac_Dirty_REQ) in my room will be cleaned?
+      - I'd be grateful if you could take care of the cleaning for the dirty [AC's](Ac_Dirty_REQ) in my room.
+      - Is there a specific department I should contact to have the dirty [AC's](Ac_Dirty_REQ) cleaned?
+      - The [AC's](Ac_Dirty_REQ) in my room is covered in dust; I believe it needs immediate cleaning.
+      - I'm concerned about the air quality due to the dirty [AC's](Ac_Dirty_REQ). Can it be cleaned soon?
+      - I've noticed that the [AC's](Ac_Dirty_REQ) vents are quite dirty; can you please arrange for cleaning?
+      - I'm not satisfied with the cleanliness of the [AC's](Ac_Dirty_REQ) in my room. Could it be cleaned today?
+      - I'd like to report a maintenance issue regarding the dirty [AC's](Ac_Dirty_REQ) in my hotel room.
+      - Could you please send housekeeping to clean the dirty [AC's](Ac_Dirty_REQ) in my room?
+      - I'd like to request a room change or have the dirty [AC's](Ac_Dirty_REQ) cleaned thoroughly.
+      - Can you please take care of the cleaning for the [AC's](Ac_Dirty_REQ) in my room? It's quite dirty.
+      - I'm disappointed with the dirty state of the [AC's](Ac_Dirty_REQ). Can it be cleaned promptly?
+      - I hope the hotel can address the issue with the dirty [AC's](Ac_Dirty_REQ) in my room and clean it.
+      - Is there a possibility of having the [AC's](Ac_Dirty_REQ) cleaned today? It's in a dirty condition.
+      - The dirty [AC's](Ac_Dirty_REQ) is affecting my comfort. Can someone clean it as soon as possible?
+      - I'm concerned that the dirty [AC's](Ac_Dirty_REQ) might cause health issues. Can it be cleaned urgently?
+      - I'm not able to use the [AC's](Ac_Dirty_REQ) due to its dirty state. Can you please arrange for cleaning?
+      - Could you please inform maintenance about the need to clean the dirty [AC's](Ac_Dirty_REQ) in my room?
+      - I'd like to request immediate attention to clean the dirty [AC's](Ac_Dirty_REQ) in my hotel room.
+      - I believe the [AC's](Ac_Dirty_REQ) in my room hasn't been cleaned in a while. Can you take care of it?
+      - Can I have an update on when the cleaning for the dirty [AC's](Ac_Dirty_REQ) in my room will be done?
+      - I hope the hotel can address the issue of the dirty [AC's](Ac_Dirty_REQ) and have it cleaned soon.
+      - I noticed a significant amount of dust on the [AC's](Ac_Dirty_REQ) vents. Can it be cleaned?
+      - I'd like to emphasize the importance of cleaning the dirty [AC's](Ac_Dirty_REQ) in my room.
+      - Is there a procedure for handling maintenance requests for cleaning the [AC's](Ac_Dirty_REQ)?
+      - I'd be grateful if the hotel can prioritize the cleaning of the dirty [AC's](Ac_Dirty_REQ) in my room.
+      - Can you please have the [AC's](Ac_Dirty_REQ) in my room cleaned and inspected for any issues?
+      - I'm not satisfied with the cleanliness of the [AC's](Ac_Dirty_REQ) in my room. Can you take action?
+      - I'm experiencing discomfort due to the dirty [AC's](Ac_Dirty_REQ). Can someone clean it today?
+      - Could you please ensure that the dirty [AC's](Ac_Dirty_REQ) in my room is thoroughly cleaned?
+      - I hope the hotel can address the issue with the dirty [AC's](Ac_Dirty_REQ) and clean it promptly.
+  - intent: Ac_Assistance_REQ-hotel_info
     examples: |
-      - My [air conditioner](Ac_Assistance_hotelInfo) is not working at all.
-      - The [AC](Ac_Assistance_hotelInfo) in my room is completely non-functional.
-      - There's no response when I turn on the [AC](Ac_Assistance_hotelInfo).
-      - The [air conditioner](Ac_Assistance_hotelInfo) is not powering up.
-      - The [AC](Ac_Assistance_hotelInfo) unit is not starting up.
-      - There's no sound or activity from the [AC](Ac_Assistance_hotelInfo).
-      - I've tried to turn on the [AC](Ac_Assistance_hotelInfo), but it's not working.
-      - The [AC](Ac_Assistance_hotelInfo) display panel is not lighting up.
-      - The [air conditioner](Ac_Assistance_hotelInfo) is not responding to the remote control.
-      - The [AC's][AC](Ac_Assistance_hotelInfo) fan is not spinning when I switch it on.
-      - The [air conditioner](Ac_Assistance_hotelInfo)'s compressor is not engaging.
-      - The [AC](Ac_Assistance_hotelInfo) is not cooling or heating as expected.
-      - The [air conditioner](Ac_Assistance_hotelInfo)'s lights are not turning on.
-      - The [AC's][AC](Ac_Assistance_hotelInfo) power button is unresponsive.
-      - I've checked the power source, but the [AC](Ac_Assistance_hotelInfo) is not working.
-      - The [air conditioner](Ac_Assistance_hotelInfo) is not making any noise or vibrations.
-      - The [AC's][AC](Ac_Assistance_hotelInfo) control panel is not functioning.
-      - The [air conditioner](Ac_Assistance_hotelInfo)'s vents are not releasing air.
-      - The [AC's][AC](Ac_Assistance_hotelInfo) temperature settings are not changing.
-      - I've pressed the [AC's][AC](Ac_Assistance_hotelInfo) buttons, but it's not responding.
-      - The [air conditioner](Ac_Assistance_hotelInfo) is not switching between modes (cool, heat, etc.).
-      - The [AC's][AC](Ac_Assistance_hotelInfo) remote control is not communicating with the unit.
-      - The [air conditioner](Ac_Assistance_hotelInfo)'s circuit breaker has not tripped.
-      - The [AC](Ac_Assistance_hotelInfo) is not displaying any error codes or messages.
-      - I've tried to reset the [AC](Ac_Assistance_hotelInfo), but it's still not working.
-      - The [air conditioner](Ac_Assistance_hotelInfo)'s power cord is properly connected, but it's not working.
-      - The [AC's][AC](Ac_Assistance_hotelInfo) internal components seem to be non-functional.
-      - The [air conditioner](Ac_Assistance_hotelInfo) is not responding to any commands.
-      - The [AC](Ac_Assistance_hotelInfo) is not turning off despite pressing the power button.
-      - The [air conditioner](Ac_Assistance_hotelInfo)'s compressor is not starting up.
-      - The [AC's][AC](Ac_Assistance_hotelInfo) thermostat is not responding to temperature changes.
-      - The [air conditioner](Ac_Assistance_hotelInfo)'s remote control batteries have been replaced, but it's not working.
-      - The [AC's][AC](Ac_Assistance_hotelInfo) display shows an error message, indicating a problem.
-      - The [air conditioner](Ac_Assistance_hotelInfo)'s internal fan is not operating.
-      - The [AC's][AC](Ac_Assistance_hotelInfo) motor is not functioning, resulting in no airflow.
-      - The [air conditioner](Ac_Assistance_hotelInfo) is not producing any cool or warm air.
-      - The [AC's][AC](Ac_Assistance_hotelInfo) condenser is not working, affecting its cooling ability.
-      - The [air conditioner](Ac_Assistance_hotelInfo)'s timer function is not working.
-      - The [AC's][AC](Ac_Assistance_hotelInfo) fan speed settings are not adjustable.
-      - The [air conditioner](Ac_Assistance_hotelInfo)'s noise level is unusually quiet, indicating an issue.
-      - The [AC's][AC](Ac_Assistance_hotelInfo) outdoor unit is not running.
-      - The [air conditioner](Ac_Assistance_hotelInfo) is not responding to the central thermostat's commands.
-      - The [AC's][AC](Ac_Assistance_hotelInfo) compressor is making unusual noises or sounds.
-      - The [air conditioner](Ac_Assistance_hotelInfo)'s circuitry seems to be malfunctioning.
-      - The [AC](Ac_Assistance_hotelInfo) is not displaying any indicators of power.
-      - The [air conditioner](Ac_Assistance_hotelInfo)'s remote control buttons are not responsive.
-      - The [AC's][AC](Ac_Assistance_hotelInfo) vents are not opening or closing properly.
-      - The [air conditioner](Ac_Assistance_hotelInfo)'s internal sensors are not detecting room temperature changes.
-      - The [AC's][AC](Ac_Assistance_hotelInfo) on/off switch is not toggling the unit's power.
-      - The [air conditioner](Ac_Assistance_hotelInfo)'s power supply seems to be faulty, resulting in no operation.
-  - intent: Tv_Assistance_REQ
+      - [AC](Ac_Assistance_REQ) is getting stopped.
+      - i don't know but the [AC](Ac_Assistance_REQ) is gets stop.
+      - Something is wrong with [AC](Ac_Assistance_REQ) it spotted frequently
+      - My [air conditioner](Ac_Assistance_REQ) is not working at all.
+      - The [AC](Ac_Assistance_REQ) in my room is completely non-functional.
+      - There's no response when I turn on the [AC](Ac_Assistance_REQ).
+      - The [air conditioner](Ac_Assistance_REQ) is not powering up.
+      - The [AC](Ac_Assistance_REQ) unit is not starting up.
+      - There's no sound or activity from the [AC](Ac_Assistance_REQ).
+      - I've tried to turn on the [AC](Ac_Assistance_REQ), but it's not working.
+      - The [AC](Ac_Assistance_REQ) display panel is not lighting up.
+      - The [air conditioner](Ac_Assistance_REQ) is not responding to the remote control.
+      - The [AC's][AC](Ac_Assistance_REQ) fan is not spinning when I switch it on.
+      - The [air conditioner](Ac_Assistance_REQ)'s compressor is not engaging.
+      - The [AC](Ac_Assistance_REQ) is not cooling or heating as expected.
+      - The [air conditioner](Ac_Assistance_REQ)'s lights are not turning on.
+      - The [AC's][AC](Ac_Assistance_REQ) power button is unresponsive.
+      - I've checked the power source, but the [AC](Ac_Assistance_REQ) is not working.
+      - The [air conditioner](Ac_Assistance_REQ) is not making any noise or vibrations.
+      - The [AC's][AC](Ac_Assistance_REQ) control panel is not functioning.
+      - The [air conditioner](Ac_Assistance_REQ)'s vents are not releasing air.
+      - The [AC's][AC](Ac_Assistance_REQ) temperature settings are not changing.
+      - I've pressed the [AC's][AC](Ac_Assistance_REQ) buttons, but it's not responding.
+      - The [air conditioner](Ac_Assistance_REQ) is not switching between modes (cool, heat, etc.).
+      - The [AC's][AC](Ac_Assistance_REQ) remote control is not communicating with the unit.
+      - The [air conditioner](Ac_Assistance_REQ)'s circuit breaker has not tripped.
+      - The [AC](Ac_Assistance_REQ) is not displaying any error codes or messages.
+      - I've tried to reset the [AC](Ac_Assistance_REQ), but it's still not working.
+      - The [air conditioner](Ac_Assistance_REQ)'s power cord is properly connected, but it's not working.
+      - The [AC's][AC](Ac_Assistance_REQ) internal components seem to be non-functional.
+      - The [air conditioner](Ac_Assistance_REQ) is not responding to any commands.
+      - The [AC](Ac_Assistance_REQ) is not turning off despite pressing the power button.
+      - The [air conditioner](Ac_Assistance_REQ)'s compressor is not starting up.
+      - The [AC's][AC](Ac_Assistance_REQ) thermostat is not responding to temperature changes.
+      - The [air conditioner](Ac_Assistance_REQ)'s remote control batteries have been replaced, but it's not working.
+      - The [AC's][AC](Ac_Assistance_REQ) display shows an error message, indicating a problem.
+      - The [air conditioner](Ac_Assistance_REQ)'s internal fan is not operating.
+      - The [AC's][AC](Ac_Assistance_REQ) motor is not functioning, resulting in no airflow.
+      - The [air conditioner](Ac_Assistance_REQ) is not producing any cool or warm air.
+      - The [AC's][AC](Ac_Assistance_REQ) condenser is not working, affecting its cooling ability.
+      - The [air conditioner](Ac_Assistance_REQ)'s timer function is not working.
+      - The [AC's][AC](Ac_Assistance_REQ) fan speed settings are not adjustable.
+      - The [air conditioner](Ac_Assistance_REQ)'s noise level is unusually quiet, indicating an issue.
+      - The [AC's][AC](Ac_Assistance_REQ) outdoor unit is not running.
+      - The [air conditioner](Ac_Assistance_REQ) is not responding to the central thermostat's commands.
+      - The [AC's][AC](Ac_Assistance_REQ) compressor is making unusual noises or sounds.
+      - The [air conditioner](Ac_Assistance_REQ)'s circuitry seems to be malfunctioning.
+      - The [AC](Ac_Assistance_REQ) is not displaying any indicators of power.
+      - The [air conditioner](Ac_Assistance_REQ)'s remote control buttons are not responsive.
+      - The [AC's][AC](Ac_Assistance_REQ) vents are not opening or closing properly.
+      - The [air conditioner](Ac_Assistance_REQ)'s internal sensors are not detecting room temperature changes.
+      - The [AC's][AC](Ac_Assistance_REQ) on/off switch is not toggling the unit's power.
+      - The [air conditioner](Ac_Assistance_REQ)'s power supply seems to be faulty, resulting in no operation.
+      - The [AC](Ac_Assistance_REQ) in the office is not working, and it's getting uncomfortably warm.
+      - I tried to turn on the [AC](Ac_Assistance_REQ), but it seems to be malfunctioning.
+      - It's scorching outside, and unfortunately, the [AC](Ac_Assistance_REQ) in room is not working either.
+      - The hotel room is nice, but the [AC](Ac_Assistance_REQ) is not working, making it hard to sleep comfortably.
+      - We need to call a technician because the [AC](Ac_Assistance_REQ) is not working as it should.
+      - It's frustrating that the [AC](Ac_Assistance_REQ) in the room is not working on such a hot day.
+      - The [AC](Ac_Assistance_REQ) unit not cooling the room; something must be wrong with it.
+      - I'm sweating profusely because the [AC](Ac_Assistance_REQ) in the room is not working properly.
+      - Our uncomfortable in the room as the [AC](Ac_Assistance_REQ) is not working, and it's difficult to focus.
+      - The room experience was ruined because the [AC](Ac_Assistance_REQ) was not working, and it was stifling hot.
+      - Despite several attempts, the [AC](Ac_Assistance_REQ) in the hotel suite is still not working, and we're getting quite frustrated.
+      - The [AC](Ac_Assistance_REQ) in the room is not working, and it's getting stuffy in here.
+      - We're trying to stay positive during the heatwave, but the fact that the [AC](Ac_Assistance_REQ) is not working is making it challenging.
+      - [AC](Ac_Assistance_REQ) is not working in our room.
+      - The technician inspected the [AC](Ac_Assistance_REQ), but they couldn't identify the problem, so it's still not working.
+      - The party was a disaster because the [AC](Ac_Assistance_REQ) in the room was not working, and everyone was sweating.
+      - I woke up in the middle of the night because the [AC](Ac_Assistance_REQ) in my room is not working, and it's too hot to sleep.
+      - The [AC](Ac_Assistance_REQ) is not working, and I've tried everything I can to troubleshoot it.
+      - it's evident that the [AC](Ac_Assistance_REQ) is not working correctly.
+      - I suspect the [AC](Ac_Assistance_REQ) is not working due to a faulty compressor or refrigerant leak.
+      - The [AC](Ac_Assistance_REQ) is not working again, and I'm tired of constantly calling for repairs.
+      - The [AC](Ac_Assistance_REQ) in the conference room is not working, making it challenging to hold meetings in the summer heat.
+      - We can't invite guests over because the [AC](Ac_Assistance_REQ) in the hotel room is not working, and it's embarrassing.
+      - I checked the thermostat, but the [AC](Ac_Assistance_REQ) is still not working as it should.
+      - The [AC](Ac_Assistance_REQ) in the room is not working, causing a decline in employee morale.
+      - We have to use fan as a temporary solution since the [AC](Ac_Assistance_REQ) is not working in the room.
+      - The [AC](Ac_Assistance_REQ) in the room is not working, making it difficult for us to stay.
+      - It's hard to stay in the room when the [AC](Ac_Assistance_REQ) is not working; it's a significant deterrent for guest.
+      - The heat is unbearable because the [AC](Ac_Assistance_REQ) in the room is not working
+      - We can't stay at this hotel again, their [AC](Ac_Assistance_REQ) is not working, and it ruined our vacation.
+      - The [AC](Ac_Assistance_REQ) is not working, and I'm concerned about the health of my kids in this heat.
+      - The technician finally arrived to fix the [AC](Ac_Assistance_REQ), but it's still not working correctly.
+      - The [AC](Ac_Assistance_REQ) is not working, and it's making strange smells when turned on.
+      - The hotel should invest in a backup [AC](Ac_Assistance_REQ) unit in case the primary one is not working.
+      - The [AC](Ac_Assistance_REQ) is not working, and I'm dreading the electricity bill after using fans all day.
+      - The [AC](Ac_Assistance_REQ) is not working, and the service company has a long waiting list for repairs.
+      - The apartment is becoming unbearable as the [AC](Ac_Assistance_REQ) is not working, and it's affecting my mood.
+      - The [AC](Ac_Assistance_REQ) is not working, and I'm not considering staying further.
+      - It's difficult to sleep at night when the [AC](Ac_Assistance_REQ) is not working, and the heat is suffocating.
+      - The [AC](Ac_Assistance_REQ) is not working, and I regret not getting it serviced on time.
+  - intent: Tv_Assistance_REQ-hotel_info
     examples: |
-      - My [TV](Tv_Assistance_hotelInfo) is not working at all.
-      - The [TV](Tv_Assistance_hotelInfo) screen is blank, and there's no signal.
-      - I can't turn on the [TV](Tv_Assistance_hotelInfo) using the remote.
-      - There's no picture on the [TV](Tv_Assistance_hotelInfo), but I can hear sound.
-      - The [television](Tv_Assistance_hotelInfo) is stuck on a specific channel and won't change.
-      - I've tried multiple remotes, but the [TV](Tv_Assistance_hotelInfo) is still not responding.
-      - The [TV's](Tv_Assistance_hotelInfo) power button is unresponsive.
-      - I'm getting a "No Signal" message on the [TV](Tv_Assistance_hotelInfo) screen.
-      - The [TV](Tv_Assistance_hotelInfo)is displaying a snowy or distorted picture.
-      - The [TV's](Tv_Assistance_hotelInfo) menu options are not accessible.
-      - I've checked the connections, but the [TV](Tv_Assistance_hotelInfo) is not working.
-      - The [TV's](Tv_Assistance_hotelInfo) volume is not working or is stuck at a certain level.
-      - I can't access any channels on the [TV](Tv_Assistance_hotelInfo).
-      - The [TV's](Tv_Assistance_hotelInfo) remote control is not functioning.
-      - The [TV's](Tv_Assistance_hotelInfo) display is flickering or flashing.
-      - The [TV](Tv_Assistance_hotelInfo) is turning on and off by itself.
-      - The [TV](Tv_Assistance_hotelInfo) is displaying a black screen with audio.
-      - The [TV's](Tv_Assistance_hotelInfo) buttons on the side are not responding.
-      - I can't adjust the brightness or contrast on the [TV](Tv_Assistance_hotelInfo).
-      - The [TV's](Tv_Assistance_hotelInfo) remote is working for other devices but not the TV.
-      - The [TV](Tv_Assistance_hotelInfo) is not responding to any commands.
-      - The [TV's](Tv_Assistance_hotelInfo) screen is frozen and won't respond to input.
-      - The [television's](Tv_Assistance_hotelInfo) picture is showing colors incorrectly.
-      - The [TV's](Tv_Assistance_hotelInfo) built-in apps are not working.
-      - The [TV's](Tv_Assistance_hotelInfo) screen is displaying vertical or horizontal lines.
-      - The [TV](Tv_Assistance_hotelInfo) is making a clicking sound but not turning on.
-      - The [TV's](Tv_Assistance_hotelInfo) remote is pairing with the TV but not controlling it.
-      - The [television](Tv_Assistance_hotelInfo) is showing a "No Input" or "No Source" message.
-      - The [TV's](Tv_Assistance_hotelInfo) screen is displaying a "Mode Not Supported" error.
-      - The [TV's](Tv_Assistance_hotelInfo) screen is displaying a "No Channel Found" message.
-      - The [TV's](Tv_Assistance_hotelInfo) built-in speakers are not producing sound.
-      - The [TV](Tv_Assistance_hotelInfo) is showing a "Please Wait" message but not progressing.
-      - The [TV's](Tv_Assistance_hotelInfo) screen is showing a "Searching for Signal" message.
-      - The [television's](Tv_Assistance_hotelInfo) screen is displaying a "Weak or No Signal" message.
-      - The [TV](Tv_Assistance_hotelInfo) is not responding to remote commands or button presses.
-      - The [TV's](Tv_Assistance_hotelInfo) power light is blinking, but it's not turning on.
-      - The [TV's](Tv_Assistance_hotelInfo) remote's batteries are replaced, but it's still not working.
-      - The [TV](Tv_Assistance_hotelInfo) is showing a "No Video Signal" message.
-      - The [TV's](Tv_Assistance_hotelInfo) screen is displaying vertical bands or stripes.
-      - The [TV's](Tv_Assistance_hotelInfo) on-screen menu is not displaying correctly.
-      - The [television's](Tv_Assistance_hotelInfo) remote is not pairing with the TV at all.
-      - The [TV's](Tv_Assistance_hotelInfo) screen is showing a "Not Supported Format" error.
-      - The [TV's](Tv_Assistance_hotelInfo) screen is displaying "Static" or "Snow" with no picture.
-      - The [TV's](Tv_Assistance_hotelInfo) screen is showing a "No Broadcast Signal" message.
-      - The [TV's](Tv_Assistance_hotelInfo) audio is cutting in and out intermittently.
-      - The [TV's](Tv_Assistance_hotelInfo) screen is showing a "No Sound" or "Muted" message.
-      - The [TV's](Tv_Assistance_hotelInfo) screen is showing a "No Signal Input" message.
-      - The [TV's](Tv_Assistance_hotelInfo) screen is displaying a "Please Check Antenna/Cable" message.
-      - The [TV's](Tv_Assistance_hotelInfo) screen is showing a "Mode Not Supported" error.
-      - The [television's](Tv_Assistance_hotelInfo) power light is on, but the screen is completely black.
-  - intent: Tv_Dirty_REQ
+      - My [TV](Tv_Assistance_REQ) is not working at all.
+      - The [TV](Tv_Assistance_REQ) screen is blank, and there's no signal.
+      - I can't turn on the [TV](Tv_Assistance_REQ) using the remote.
+      - There's no picture on the [TV](Tv_Assistance_REQ), but I can hear sound.
+      - The [television](Tv_Assistance_REQ) is stuck on a specific channel and won't change.
+      - I've tried multiple remotes, but the [TV](Tv_Assistance_REQ) is still not responding.
+      - The [TV's](Tv_Assistance_REQ) power button is unresponsive.
+      - I'm getting a "No Signal" message on the [TV](Tv_Assistance_REQ) screen.
+      - The [TV](Tv_Assistance_REQ) is displaying a snowy or distorted picture.
+      - The [TV's](Tv_Assistance_REQ) menu options are not accessible.
+      - I've checked the connections, but the [TV](Tv_Assistance_REQ) is not working.
+      - The [TV's](Tv_Assistance_REQ) volume is not working or is stuck at a certain level.
+      - I can't access any channels on the [TV](Tv_Assistance_REQ).
+      - The [TV's](Tv_Assistance_REQ) remote control is not functioning.
+      - The [TV's](Tv_Assistance_REQ) display is flickering or flashing.
+      - The [TV](Tv_Assistance_REQ) is turning on and off by itself.
+      - The [TV](Tv_Assistance_REQ) is displaying a black screen with audio.
+      - The [TV's](Tv_Assistance_REQ) buttons on the side are not responding.
+      - I can't adjust the brightness or contrast on the [TV](Tv_Assistance_REQ).
+      - The [TV's](Tv_Assistance_REQ) remote is working for other devices but not the TV.
+      - The [TV](Tv_Assistance_REQ) is not responding to any commands.
+      - The [TV's](Tv_Assistance_REQ) screen is frozen and won't respond to input.
+      - The [television's](Tv_Assistance_REQ) picture is showing colors incorrectly.
+      - The [TV's](Tv_Assistance_REQ) built-in apps are not working.
+      - The [TV's](Tv_Assistance_REQ) screen is displaying vertical or horizontal lines.
+      - The [TV](Tv_Assistance_REQ) is making a clicking sound but not turning on.
+      - The [TV's](Tv_Assistance_REQ) remote is pairing with the TV but not controlling it.
+      - The [television](Tv_Assistance_REQ) is showing a "No Input" or "No Source" message.
+      - The [TV's](Tv_Assistance_REQ) screen is displaying a "Mode Not Supported" error.
+      - The [TV's](Tv_Assistance_REQ) screen is displaying a "No Channel Found" message.
+      - The [TV's](Tv_Assistance_REQ) built-in speakers are not producing sound.
+      - The [TV](Tv_Assistance_REQ) is showing a "Please Wait" message but not progressing.
+      - The [TV's](Tv_Assistance_REQ) screen is showing a "Searching for Signal" message.
+      - The [television's](Tv_Assistance_REQ) screen is displaying a "Weak or No Signal" message.
+      - The [TV](Tv_Assistance_REQ) is not responding to remote commands or button presses.
+      - The [TV's](Tv_Assistance_REQ) power light is blinking, but it's not turning on.
+      - The [TV's](Tv_Assistance_REQ) remote's batteries are replaced, but it's still not working.
+      - The [TV](Tv_Assistance_REQ) is showing a "No Video Signal" message.
+      - The [TV's](Tv_Assistance_REQ) screen is displaying vertical bands or stripes.
+      - The [TV's](Tv_Assistance_REQ) on-screen menu is not displaying correctly.
+      - The [television's](Tv_Assistance_REQ) remote is not pairing with the TV at all.
+      - The [TV's](Tv_Assistance_REQ) screen is showing a "Not Supported Format" error.
+      - The [TV's](Tv_Assistance_REQ) screen is displaying "Static" or "Snow" with no picture.
+      - The [TV's](Tv_Assistance_REQ) screen is showing a "No Broadcast Signal" message.
+      - The [TV's](Tv_Assistance_REQ) audio is cutting in and out intermittently.
+      - The [TV's](Tv_Assistance_REQ) screen is showing a "No Sound" or "Muted" message.
+      - The [TV's](Tv_Assistance_REQ) screen is showing a "No Signal Input" message.
+      - The [TV's](Tv_Assistance_REQ) screen is displaying a "Please Check Antenna/Cable" message.
+      - The [TV's](Tv_Assistance_REQ) screen is showing a "Mode Not Supported" error.
+      - The [television's](Tv_Assistance_REQ) power light is on, but the screen is completely black.
+  - intent: Tv_Dirty_REQ-hotel_info
     examples: |
-      - The [television](Tv_Dirty_hotelInfo) screen has accumulated dust and dirt.
-      - There are visible smudges on the [TV](Tv_Dirty_hotelInfo) display.
-      - The [TV](Tv_Dirty_hotelInfo) has gathered dirt and fingerprints over time.
-      - I can see stains and marks on the [TV](Tv_Dirty_hotelInfo) screen.
-      - The [television](Tv_Dirty_hotelInfo) looks hazy due to dirt buildup.
-      - The [TV](Tv_Dirty_hotelInfo) screen appears dusty and needs cleaning.
-      - There are fingerprints all over the [TV](Tv_Dirty_hotelInfo) surface.
-      - I noticed dirt particles on the [television](Tv_Dirty_hotelInfo) monitor.
-      - The [television](Tv_Dirty_hotelInfo) screen is covered in dust and grime.
-      - The [TV display](Tv_Dirty_hotelInfo) is not clear because of the dirt.
-      - I can't enjoy a clear picture due to the dirty [television](Tv_Dirty_hotelInfo).
-      - The [TV's](Tv_Dirty_hotelInfo) image quality is affected by the dirt on the screen.
-      - There's a layer of dust on the [TV's](Tv_Dirty_hotelInfo) front panel.
-      - The [TV](Tv_Dirty_hotelInfo) screen needs a good cleaning.
-      - I'm having difficulty seeing details on the dirty [TV](Tv_Dirty_hotelInfo).
-      - The [TV's](Tv_Dirty_hotelInfo) colors appear dull due to the dirt.
-      - The [TV](Tv_Dirty_hotelInfo) looks smudged and needs to be cleaned.
-      - I want to clean the [television](Tv_Dirty_hotelInfo) to improve its appearance.
-      - The [TV](Tv_Dirty_hotelInfo) is hard to view clearly due to the dirt.
-      - There are marks and spots on the [TV](Tv_Dirty_hotelInfo) screen.
-      - I need to wipe off the dirt from the [TV](Tv_Dirty_hotelInfo) surface.
-      - The [TV's](Tv_Dirty_hotelInfo) picture is marred by dirt and smudges.
-      - The [TV display](Tv_Dirty_hotelInfo) is blurry because of the accumulated dirt.
-      - The [TV's](Tv_Dirty_hotelInfo) screen needs a thorough cleaning.
-      - The [TV's](Tv_Dirty_hotelInfo) clarity is compromised by dirt particles.
-      - I can see dust specks on the [TV's](Tv_Dirty_hotelInfo) screen.
-      - The [TV](Tv_Dirty_hotelInfo) needs some cleaning to look presentable.
-      - There's a film of dirt on the [TV](Tv_Dirty_hotelInfo) monitor.
-      - The [TV's](Tv_Dirty_hotelInfo) screen looks greasy and dirty.
-      - I want to remove the dirt from the [TV's](Tv_Dirty_hotelInfo) surface.
-      - The [TV's](Tv_Dirty_hotelInfo) brightness is affected by the dirt buildup.
-      - I need to get rid of the dust on the [TV](Tv_Dirty_hotelInfo).
-      - The [TV's](Tv_Dirty_hotelInfo) visual quality is diminished by the dirt.
-      - The [TV's](Tv_Dirty_hotelInfo) display needs a good wipe down.
-      - I can't enjoy a clear view due to the [dirty TV](Tv_Dirty_hotelInfo).
-      - The [Tv screen](Tv_Dirty_hotelInfo) is covered in fingerprints and dirt.
-      - The dirt on the [TV](Tv_Dirty_hotelInfo) is making it hard to watch.
-      - I noticed dirt streaks on the [TV](Tv_Dirty_hotelInfo) screen.
-      - The [TV's](Tv_Dirty_hotelInfo) image is obscured by dust and grime.
-      - There are spots and marks all over the [TV](Tv_Dirty_hotelInfo).
-      - I need to clean the [TV](Tv_Dirty_hotelInfo) to remove the dirt.
-      - The [TV's](Tv_Dirty_hotelInfo) screen requires a thorough cleaning.
-      - The [display](Tv_Dirty_hotelInfo) looks smudged and dirty.
-      - I want to wipe off the dirt from the [TV](Tv_Dirty_hotelInfo).
-      - The [TV's](Tv_Dirty_hotelInfo) picture quality is affected by the dirt.
-      - The [TV's](Tv_Dirty_hotelInfo) screen is clouded with dust.
-      - I can see dirt particles on the [TV's](Tv_Dirty_hotelInfo) surface.
-      - The [TV's](Tv_Dirty_hotelInfo) screen needs proper cleaning.
-      - The [TV](Tv_Dirty_hotelInfo) looks dull due to the accumulated dirt.
-      - I need to clean the [TV](Tv_Dirty_hotelInfo) to restore its clarity.
-  # - lookup: Ac_Assistance_hotelInfo
-  #   examples: |
-  #     - air conditioner's
-  #     - air conditioner
-  #     - ac
-  #     - ar conditioner
-  #     - ac's
-  # - lookup: Ac_Noisy_hotelInfo
-  #   examples: |
-  #     - air conditioner's
-  #     - air conditioner
-  #     - ac
-  #     - ar conditioner
-  #     - ac's
-  # - lookup: AC_Cooling_hotelInfo
-  #   examples: |
-  #     - air conditioner's
-  #     - air conditioner
-  #     - ac
-  #     - ar conditioner
-  #     - ac's
-  # - lookup: Ac_Dirty_hotelInfo
-  #   examples: |
-  #     - air conditioner's
-  #     - air conditioner
-  #     - ac
-  #     - ar conditioner
-  #     - ac's
-  # - lookup: Tv_Dirty_hotelInfo
-  #   examples: |
-  #     - television
-  #     - television screen
-  #     - tv
-  #     - tv screen
-  #     - tv's
-  #     - television's
-  # - lookup: Tv_Assistance_hotelInfo
-  #   examples: |
-  #     - television
-  #     - television screen
-  #     - tv
-  #     - tv screen
-  #     - tv's
-  #     - television's
+      - [tv](Tv_Dirty_REQ) looks very dirty.
+      - The [television](Tv_Dirty_REQ) screen has accumulated dust and dirt.
+      - There are visible smudges on the [TV](Tv_Dirty_REQ) display.
+      - The [TV](Tv_Dirty_REQ) has gathered dirt and fingerprints over time.
+      - I can see stains and marks on the [TV](Tv_Dirty_REQ) screen.
+      - The [television](Tv_Dirty_REQ) looks hazy due to dirt buildup.
+      - The [TV](Tv_Dirty_REQ) screen appears dusty and needs cleaning.
+      - There are fingerprints all over the [TV](Tv_Dirty_REQ) surface.
+      - I noticed dirt particles on the [television](Tv_Dirty_REQ) monitor.
+      - The [television](Tv_Dirty_REQ) screen is covered in dust and grime.
+      - The [TV display](Tv_Dirty_REQ) is not clear because of the dirt.
+      - I can't enjoy a clear picture due to the dirty [television](Tv_Dirty_REQ).
+      - The [TV's](Tv_Dirty_REQ) image quality is affected by the dirt on the screen.
+      - There's a layer of dust on the [TV's](Tv_Dirty_REQ) front panel.
+      - The [TV](Tv_Dirty_REQ) screen needs a good cleaning.
+      - I'm having difficulty seeing details on the dirty [TV](Tv_Dirty_REQ).
+      - The [TV's](Tv_Dirty_REQ) colors appear dull due to the dirt.
+      - The [TV](Tv_Dirty_REQ) looks smudged and needs to be cleaned.
+      - I want to clean the [television](Tv_Dirty_REQ) to improve its appearance.
+      - The [TV](Tv_Dirty_REQ) is hard to view clearly due to the dirt.
+      - There are marks and spots on the [TV](Tv_Dirty_REQ) screen.
+      - I need to wipe off the dirt from the [TV](Tv_Dirty_REQ) surface.
+      - The [TV's](Tv_Dirty_REQ) picture is marred by dirt and smudges.
+      - The [TV display](Tv_Dirty_REQ) is blurry because of the accumulated dirt.
+      - The [TV's](Tv_Dirty_REQ) screen needs a thorough cleaning.
+      - The [TV's](Tv_Dirty_REQ) clarity is compromised by dirt particles.
+      - I can see dust specks on the [TV's](Tv_Dirty_REQ) screen.
+      - The [TV](Tv_Dirty_REQ) needs some cleaning to look presentable.
+      - There's a film of dirt on the [TV](Tv_Dirty_REQ) monitor.
+      - The [TV's](Tv_Dirty_REQ) screen looks greasy and dirty.
+      - I want to remove the dirt from the [TV's](Tv_Dirty_REQ) surface.
+      - The [TV's](Tv_Dirty_REQ) brightness is affected by the dirt buildup.
+      - I need to get rid of the dust on the [TV](Tv_Dirty_REQ).
+      - The [TV's](Tv_Dirty_REQ) visual quality is diminished by the dirt.
+      - The [TV's](Tv_Dirty_REQ) display needs a good wipe down.
+      - I can't enjoy a clear view due to the [dirty TV](Tv_Dirty_REQ).
+      - The [Tv screen](Tv_Dirty_REQ) is covered in fingerprints and dirt.
+      - The dirt on the [TV](Tv_Dirty_REQ) is making it hard to watch.
+      - I noticed dirt streaks on the [TV](Tv_Dirty_REQ) screen.
+      - The [TV's](Tv_Dirty_REQ) image is obscured by dust and grime.
+      - There are spots and marks all over the [TV](Tv_Dirty_REQ).
+      - I need to clean the [TV](Tv_Dirty_REQ) to remove the dirt.
+      - The [TV's](Tv_Dirty_REQ) screen requires a thorough cleaning.
+      - The [display](Tv_Dirty_REQ) looks smudged and dirty.
+      - I want to wipe off the dirt from the [TV](Tv_Dirty_REQ).
+      - The [TV's](Tv_Dirty_REQ) picture quality is affected by the dirt.
+      - The [TV's](Tv_Dirty_REQ) screen is clouded with dust.
+      - I can see dirt particles on the [TV's](Tv_Dirty_REQ) surface.
+      - The [TV's](Tv_Dirty_REQ) screen needs proper cleaning.
+      - The [TV](Tv_Dirty_REQ) looks dull due to the accumulated dirt.
+      - I need to clean the [TV](Tv_Dirty_REQ) to restore its clarity.
+  - intent: Spoon_REQ-hotel_info
+    examples: |
+      - Excuse me, could you please bring me a [spoon](Spoon_REQ)?
+      - Hi there, I seem to be missing a [spoon](Spoon_REQ). Can you provide one?
+      - I need a [spoon](Spoon_REQ) for my meal. Can you assist me with that?
+      - Is it possible to get a [spoon](Spoon_REQ) for the dish I ordered?
+      - Can the server bring me a [spoon](Spoon_REQ), please?
+      - I'd like to request a [spoon](Spoon_REQ) for my soup, please.
+      - Can you help me find a [spoon](Spoon_REQ) for my dessert?
+      - I require a [spoon](Spoon_REQ) for my coffee, could you get one for me?
+      - I can't find a [spoon](Spoon_REQ) at my room, can you bring one over?
+      - Excuse me, I need a [spoon](Spoon_REQ) for my salad. Could you bring one, please?
+      - Is there any chance you could fetch me a [spoon](Spoon_REQ) for the sauce?
+      - My room table is missing a [spoon](Spoon_REQ), could you provide one for me?
+      - Can I get a [spoon](Spoon_REQ) for the ice cream, please?
+      - I'm enjoying my meal, but I need a [spoon](Spoon_REQ) for this dish.
+      - I'd be grateful if you could bring me a [spoon](Spoon_REQ).
+      - May I request a [spoon](Spoon_REQ) for my entree, please?
+      - Could you please ensure there's a [spoon](Spoon_REQ) on the table?
+      - I need a [spoon](Spoon_REQ) for my appetizer, can you get one for me?
+      - Excuse me, but I don't see a [spoon](Spoon_REQ) at my room. Can you bring one?
+      - Can I get a [spoon](Spoon_REQ) for the gravy, please?
+      - I need a [spoon](Spoon_REQ) to stir my drink. Could you provide one?
+      - I'd appreciate it if you could bring me a [spoon](Spoon_REQ) for my soup.
+      - Hi, I forgot to grab a [spoon](Spoon_REQ) for my meal. Can you assist me?
+      - My dessert requires a [spoon](Spoon_REQ). Can you bring one, please?
+      - Can you please bring me a [spoon](Spoon_REQ) for my side dish?
+      - Excuse me, I need a [spoon](Spoon_REQ) for my cereal. Can you get one for me?
+      - I seem to have misplaced my [spoon](Spoon_REQ). Can you provide a replacement?
+      - Can I get a [spoon](Spoon_REQ) for my yogurt, please?
+      - I'm enjoying my dessert, but I need a [spoon](Spoon_REQ) for it.
+      - Could you please bring a [spoon](Spoon_REQ) for the sauce?
+      - I'd like a [spoon](Spoon_REQ) to go with my fruit salad. Can you assist me?
+      - Hi there, I'm missing a [spoon](Spoon_REQ) at my room. Can you bring one over?
+      - I need a [spoon](Spoon_REQ) to enjoy my pudding. Could you provide one?
+      - Can you get me a [spoon](Spoon_REQ) for my hot beverage, please?
+      - Excuse me, but I can't find a [spoon](Spoon_REQ). Could you provide one?
+      - I'd like a [spoon](Spoon_REQ) for my porridge. Can you get one for me?
+      - Hi, can you bring me a [spoon](Spoon_REQ) for my smoothie?
+      - I needs a [spoon](Spoon_REQ) in my room, could you provide one, please?
+      - I require a [spoon](Spoon_REQ) for my dessert. Can you assist me?
+      - Can you please bring a [spoon](Spoon_REQ) for the dressing?
+      - I need a [spoon](Spoon_REQ) for my soup. Can you get one for me?
+      - Excuse me, I need a [spoon](Spoon_REQ) for my side dish. Could you bring one?
+      - Can you provide me with a [spoon](Spoon_REQ) for my ice cream, please?
+      - I'm enjoying my meal, but I need a [spoon](Spoon_REQ) for this course.
+      - I'd appreciate it if you could bring me a [spoon](Spoon_REQ).
+      - May I request a [spoon](Spoon_REQ) for my entree, please?
+      - Can you please ensure there's a [spoon](Spoon_REQ) in my room?
+      - I need a [spoon](Spoon_REQ) for my appetizer. Can you get one for me?
+      - Excuse me, but I don't see a [spoon](Spoon_REQ) in my room. Can you bring one?
+      - Can I get a [spoon](Spoon_REQ) for the sauce, please?
+      - I need a [spoon](Spoon_REQ) to stir my drink. Could you provide one?
+      - I'd appreciate it if you could bring me a [spoon](Spoon_REQ) for my soup.
+      - Hi, I forgot to grab a [spoon](Spoon_REQ) for my meal. Can you assist me?
+      - My dessert requires a [spoon](Spoon_REQ). Can you bring one, please?
+      - Can you please bring me a [spoon](Spoon_REQ) for my side dish?
+      - Excuse me, I need a [spoon](Spoon_REQ) for my cereal. Can you get one for me?
+      - I seem to have misplaced my [spoon](Spoon_REQ). Can you provide a replacement?
+      - Can I get a [spoon](Spoon_REQ) for my yogurt, please?
+      - I'm enjoying my dessert, but I need a [spoon](Spoon_REQ) for it.
+      - Could you please bring a [spoon](Spoon_REQ) for the sauce?
+      - I'd like a [spoon](Spoon_REQ) to go with my fruit salad. Can you assist me?
+      - Hi there, I'm missing a [spoon](Spoon_REQ) in my room's table. Can you bring one over?
+      - I need a [spoon](Spoon_REQ) to enjoy my pudding. Could you provide one?
+      - Can you get me a [spoon](Spoon_REQ) for my hot beverage, please?
+      - Excuse me, but I can't find a [spoon](Spoon_REQ). Could you provide one?
+      - I'd like a [spoon](Spoon_REQ) for my porridge. Can you get one for me?
+      - Hi, can you bring me a [spoon](Spoon_REQ) for my smoothie?
+      - I needs a [spoon](Spoon_REQ) in my room. Could you provide one, please?
+      - I require a [spoon](Spoon_REQ) for my dessert. Can you assist me?
+      - Can you please bring a [spoon](Spoon_REQ) for the dressing?
+      - I need a [spoon](Spoon_REQ) for my soup. Can you get one for me?
+      - Excuse me, I need a [spoon](Spoon_REQ) for my side dish. Could you bring one?
+      - Can you provide me with a [spoon](Spoon_REQ) for my ice cream, please?
+      - I'm enjoying my meal, but I need a [spoon](Spoon_REQ) for this course.
+      - I'd appreciate it if you could bring me a [spoon](Spoon_REQ).
+      - May I request a [spoon](Spoon_REQ) for my entree, please?
+      - Can you please ensure there's a [spoon](Spoon_REQ) in the room's table?
+      - I need a [spoon](Spoon_REQ) for my appetizer. Can you get one for me?
+      - Excuse me, but I don't see a [spoon](Spoon_REQ) at my room's table. Can you bring one?
+      - Can I get a [spoon](Spoon_REQ) for the sauce, please?
+      - I need a [spoon](Spoon_REQ) to stir my drink. Could you provide one?
+      - I'd appreciate it if you could bring me a [spoon](Spoon_REQ) for my soup.
+      - Hi, I forgot to grab a [spoon](Spoon_REQ) for my meal. Can you assist me?
+      - My dessert requires a [spoon](Spoon_REQ). Can you bring one, please?
+      - Can you please bring me a [spoon](Spoon_REQ) for my side dish?
+      - Excuse me, I need a [spoon](Spoon_REQ) for my cereal. Can you get one for me?
+      - I seem to have misplaced my [spoon](Spoon_REQ). Can you provide a replacement?
+      - Can I get a [spoon](Spoon_REQ) for my yogurt, please?
+      - I'm enjoying my dessert, but I need a [spoon](Spoon_REQ) for it.
+      - Could you please bring a [spoon](Spoon_REQ) for the sauce?
+      - I'd like a [spoon](Spoon_REQ) to go with my fruit salad. Can you assist me?
+      - Hi there, I'm missing a [spoon](Spoon_REQ) at my room's table. Can you bring one over?
+      - I need a [spoon](Spoon_REQ) to enjoy my pudding. Could you provide one?
+      - Can you get me a [spoon](Spoon_REQ) for my hot beverage, please?
+      - Excuse me, but I can't find a spoon in my room.
+  - intent: Additional_Key_REQ-hotel_info
+    examples: |
+      - lost the [room's key](Additional_Key_REQ).
+      - I don't know where but i lost my [room keys](Additional_Key_REQ)
+      - Excuse me, I seem to have misplaced my [room key](Additional_Key_REQ). Could I please get a spare one?
+      - Hi there, I locked myself out of my room. Can you provide me with a [spare key](Additional_key_REQ), please?
+      - I'm in need of a [spare key](Additional_key_REQ) for my hotel room, as I can't find my original one.
+      - Sorry to bother you, but I need assistance getting a [spare key](Additional_key_REQ) for my room.
+      - My [room key](Additional_Key_REQ) is missing, and I was wondering if I could get a [spare key](Additional_key_REQ) from the front desk?
+      - Is it possible to get a [spare key](Additional_key_REQ) for my room? I can't locate my original key.
+      - Hi, I'm having a bit of a situation as I've lost my [room key](Additional_Key_REQ). Can I have a spare one, please?
+      - Could you help me out with a [spare key](Additional_key_REQ) for my room? I can't get in without it.
+      - I seem to have lost my [room key](Additional_Key_REQ); could you please arrange a spare one for me?
+      - Hi, I'm locked out of my room. May I have a [spare key](Additional_key_REQ) to access it?
+      - I'm afraid I've misplaced my [room key](Additional_Key_REQ). Is there any chance I could get a [spare key](Additional_key_REQ), please?
+      - My [room key](Additional_Key_REQ) seems to have disappeared. Could I get a [spare key](Additional_key_REQ), by any chance?
+      - I need some assistance. My [room key](Additional_Key_REQ) is nowhere to be found, and I require a spare one.
+      - I can't find my [room key](Additional_Key_REQ); could you provide me with a [spare key](Additional_key_REQ), please?
+      - Excuse me, but I've lost my [room key](Additional_Key_REQ). Can I get a spare one from the front desk?
+      - Hi, I accidentally left my [room key](Additional_Key_REQ) elsewhere. Can you issue me a [spare key](Additional_key_REQ), please?
+      - I'm unable to enter my room as I've lost my key. Can I have a [spare key](Additional_key_REQ), please?
+      - I hope you can help me. I'm missing my [room key](Additional_Key_REQ) and need a spare one to get in.
+      - Apologies for the inconvenience, but I need a [spare key](Additional_key_REQ) for my room. I've lost my original one.
+      - My [room key](Additional_Key_REQ) appears to be missing; could you kindly provide a [spare key](Additional_key_REQ)?
+      - I've managed to misplace my [room key](Additional_Key_REQ). Can I get a spare one, please?
+      - Hi, I need a bit of assistance. I've lost my [room key](Additional_Key_REQ) and need a spare one to enter my room.
+      - Excuse me, but I can't find my [room key](Additional_Key_REQ). Could you give me a [spare key](Additional_key_REQ), please?
+      - I'm locked out of my room. Can I get a [spare key](Additional_key_REQ) to access it?
+      - My [room key](Additional_Key_REQ) is lost, and I was hoping to get a spare one from the front desk.
+      - Hi, I seem to have misplaced my [room key](Additional_Key_REQ). May I have a [spare key](Additional_key_REQ) to use?
+      - I'm facing an issue with my [room key](Additional_Key_REQ). Is it possible to get a spare one, please?
+      - I can't find my [room key](Additional_Key_REQ) anywhere. Can I get a [spare key](Additional_key_REQ), by any chance?
+      - Hi, my [room key](Additional_Key_REQ) is missing, and I need a spare one to enter my room.
+      - I seem to have lost my [room key](Additional_Key_REQ). Could I get a [spare key](Additional_key_REQ), please?
+      - Excuse me, but I'm locked out of my room. Can I get a [spare key](Additional_key_REQ) from the front desk?
+      - My [room key](Additional_Key_REQ) is nowhere to be found. Can I have a [spare key](Additional_key_REQ) to access my room?
+      - I need your help. I've lost my [room key](Additional_Key_REQ) and require a spare one to enter my room.
+      - Hi there, I can't find my [room key](Additional_Key_REQ). Can I get a spare one to use?
+      - I've misplaced my [room key](Additional_Key_REQ); could you provide me with a [spare key](Additional_key_REQ), please?
+      - Apologies, but I've lost my [room key](Additional_Key_REQ). Can you arrange a spare one for me?
+      - I'm locked out of my room. May I have a [spare key](Additional_key_REQ) to get back in?
+      - My [room key](Additional_Key_REQ) seems to have disappeared. Could you kindly provide a [spare key](Additional_key_REQ)?
+      - Excuse me, but I've misplaced my [room key](Additional_Key_REQ). Can I get a spare one, please?
+      - Hi, I need a bit of assistance. I've lost my [room key](Additional_Key_REQ) and need a spare one to enter my room.
+      - I'm unable to enter my room as I've lost my key. Can I have a [spare key](Additional_key_REQ), please?
+      - I hope you can help me. I'm missing my [room key](Additional_Key_REQ) and need a spare one to get in.
+      - Apologies for the inconvenience, but I need a [spare key](Additional_key_REQ) for my room. I've lost my original one.
+      - My [room key](Additional_Key_REQ) appears to be missing; could you kindly provide a [spare key](Additional_key_REQ)?
+      - I've managed to misplace my [room key](Additional_Key_REQ). Can I get a spare one, please?
+      - Hi, I need a bit of assistance. I've lost my [room key](Additional_Key_REQ) and need a spare one to enter my room.
+      - Excuse me, but I can't find my [room key](Additional_Key_REQ). Could you give me a [spare key](Additional_key_REQ), please?
+      - I'm locked out of my room. Can I get a [spare key](Additional_key_REQ) to access it?
+      - My [room key](Additional_Key_REQ) is lost, and I was hoping to get a spare one from the front desk.
+      - Hi, I seem to have misplaced my [room key](Additional_Key_REQ). May I have a [spare key](Additional_key_REQ) to use?
+      - I'm facing an issue with my [room key](Additional_Key_REQ). Is it possible to get a spare one, please?
+      - I can't find my [room key](Additional_Key_REQ) anywhere. Can I get a [spare key](Additional_key_REQ), by any chance?
+      - Hi, my [room key](Additional_Key_REQ) is missing, and I need a spare one to enter my room.
+      - I seem to have lost my [room key](Additional_Key_REQ). Could I get a [spare key](Additional_key_REQ), please?
+      - Excuse me, but I'm locked out of my room. Can I get a [spare key](Additional_key_REQ) from the front desk?
+      - My [room key](Additional_Key_REQ) is nowhere to be found. Can I have a [spare key](Additional_key_REQ) to access my room?
+      - I need your help. I've lost my [room key](Additional_Key_REQ) and require a spare one to enter my room.
+      - Hi there, I can't find my [room key](Additional_Key_REQ). Can I get a spare one to use?
+      - I've misplaced my [room key](Additional_Key_REQ); could you provide me with a [spare key](Additional_key_REQ), please?
+      - Apologies, but I've lost my [room key](Additional_Key_REQ). Can you arrange a spare one for me?
+      - I'm locked out of my room. May I have a [spare key](Additional_key_REQ) to get back in?
+      - My [room key](Additional_Key_REQ) seems to have disappeared. Could you kindly provide a [spare key](Additional_key_REQ)?
+      - Excuse me, but I've misplaced my [room key](Additional_Key_REQ). Can I get a spare one, please?
+      - Hi, I need a bit of assistance. I've lost my [room key](Additional_Key_REQ) and need a spare one to enter my room.
+      - I'm unable to enter my room as I've lost my key. Can I have a [spare key](Additional_key_REQ), please?
+      - I hope you can help me. I'm missing my [room key](Additional_Key_REQ) and need a spare one to get in.
+      - Apologies for the inconvenience, but I need a [spare key](Additional_key_REQ) for my room. I've lost my original one.
+      - My [room key](Additional_Key_REQ) appears to be missing; could you kindly provide a [spare key](Additional_key_REQ)?
+      - I've managed to misplace my [room key](Additional_Key_REQ). Can I get a spare one, please?
+      - Hi, I need a bit of assistance. I've lost my [room key](Additional_Key_REQ) and need a spare one to enter my room.
+      - Excuse me, but I can't find my [room key](Additional_Key_REQ). Could you give me a [spare key](Additional_key_REQ), please?
+      - I'm locked out of my room. Can I get a [spare key](Additional_key_REQ) to access it?
+      - My [room key](Additional_Key_REQ) is lost, and I was hoping to get a spare one from the front desk.
+      - Hi, I seem to have misplaced my [room key](Additional_Key_REQ). May I have a [spare key](Additional_key_REQ) to use?
+      - I'm facing an issue with my [room key](Additional_Key_REQ). Is it possible to get a spare one, please?
+      - I can't find my [room key](Additional_Key_REQ) anywhere. Can I get a [spare key](Additional_key_REQ), by any chance?
+      - Hi, my [room key](Additional_Key_REQ) is missing, and I need a spare one to enter my room.
+      - I seem to have lost my [room key](Additional_Key_REQ). Could I get a [spare key](Additional_key_REQ), please?
+      - Excuse me, but I'm locked out of my room. Can I get a [spare key](Additional_key_REQ) from the front desk?
+      - My [room key](Additional_Key_REQ) is nowhere to be found. Can I have a [spare key](Additional_key_REQ) to access my room?
+      - I need your help. I've lost my [room key](Additional_Key_REQ) and require a spare one to enter my room.
+      - Hi there, I can't find my [room key](Additional_Key_REQ). Can I get a spare one to use?
+      - I've misplaced my [room key](Additional_Key_REQ); could you provide me with a [spare key](Additional_key_REQ), please?
+      - Apologies, but I've lost my [room key](Additional_Key_REQ). Can you arrange a spare one for me?
+      - I'm locked out of my room. May I have a [spare key](Additional_key_REQ) to get back in?
+      - My [room key](Additional_Key_REQ) seems to have disappeared. Could you kindly provide a [spare key](Additional_key_REQ)?
+      - Excuse me, but I've misplaced my [room key](Additional_Key_REQ). Can I get a spare one, please?
+      - Hi, I need a bit of assistance. I've lost my [room key](Additional_Key_REQ) and need a spare one to enter my room.
+      - I'm unable to enter my room as I've lost my key. Can I have a [spare key](Additional_key_REQ), please?
+      - I hope you can help me. I'm missing my [room key](Additional_Key_REQ) and need a spare one to get in.
+      - Apologies for the inconvenience, but I need a [spare key](Additional_key_REQ) for my room. I've lost my original one.
+      - My [room key](Additional_Key_REQ) appears to be missing; could you kindly provide a [spare key](Additional_key_REQ)?
+      - I've managed to misplace my [room key](Additional_Key_REQ). Can I get a spare one, please?
+      - Hi, I need a bit of assistance. I've lost my [room key](Additional_Key_REQ) and need a spare one to enter my room.
+      - Excuse me, but I can't find my [room key](Additional_Key_REQ). Could you give me a [spare key](Additional_key_REQ), please?
+      - I'm locked out of my room. Can I get a [spare key](Additional_key_REQ) to access it?
+      - My [room key](Additional_Key_REQ) is lost, and I was hoping to get a spare one from the front desk.
+      - Hi, I seem to have misplaced my [room key](Additional_Key_REQ). May I have a [spare key](Additional_key_REQ) to use?
+      - I'm facing an issue with my [room key](Additional_Key_REQ). Is it possible to get a spare one, please?
+      - I can't find my [room key](Additional_Key_REQ) anywhere. Can I get a [spare key](Additional_key_REQ), by any chance?
+  - lookup: Ac_Assistance_REQ
+    examples: |
+      - air conditioner's broken 
+      - air conditioner's broke
+      - air conditioner's malfunctioning
+      - air conditioner not working
+      - ac broken 
+      - ac broke 
+      - ar malfunctioning
+      - ac not working
+  - lookup: Ac_Noisy_REQ
+    examples: |
+      - air conditioner's is loud
+      - air conditioner is noisy
+      - ac making noise
+      - ar conditioner unbearable sound
+      - ac making disturbance sound
+  - lookup: AC_Cooling_REQ
+    examples: |
+      - air conditioner's not cooling
+      - air conditioner giving warm air
+      - ac has no effect
+      - ac giving warm air
+      - ar conditioner 
+      - AC blows warm air.
+      - Air conditioner not cooling properly.
+      - AC emits warm air only.
+      - Air conditioning unit not cooling.
+      - AC not providing cold air.
+      - Warm air from the AC.
+      - No cool air from the AC.
+      - AC issue, warm air coming out.
+      - Warmth instead of cool air from AC.
+      - My AC is blowing warm air.
+  - lookup: Ac_Dirty_REQ
+    examples: |
+      - AC needs cleaning.
+      - Dirty AC unit.
+      - Clean the air conditioner.
+      - Dusty AC vents.
+      - AC filter is dirty.
+      - Dirty air conditioning system.
+      - Clean the AC coils.
+      - Dust buildup in AC.
+      - AC not working well due to dirt.
+      - Dirt affecting AC performance
+  - lookup: Tv_Dirty_REQ
+    examples: |
+      - TV needs cleaning.
+      - Dirty TV screen.
+      - Clean the television.
+      - Dusty TV remote.
+      - TV screen is smudged.
+      - Fingerprints on the TV.
+      - Dust buildup on TV edges.
+      - Clean the TV display.
+      - Dirt affecting TV picture quality.
+      - Wipe down the TV
+  - lookup: Tv_Assistance_REQ
+    examples: |
+      - TV won't turn on.
+      - Broken television screen.
+      - TV display is black.
+      - No sound from the TV.
+      - TV shows a blank screen.
+      - TV is not responding.
+      - Broken TV remote.
+      - TV has a flickering image.
+      - TV buttons not working.
+      - Broken power cable for the TV.
+  - lookup: Additional_key_REQ
+    examples: |
+      - room key
+      - room keys
+      - lost key
+      - lost room keys
+      - lost room's keys
+      - additional key
+      - spare key
