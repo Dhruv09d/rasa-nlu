@@ -224,6 +224,12 @@ nlu:
       - My [AC](Ac_Noisy_REQ) started making a knocking noise after the recent maintenance.
   - intent: Ac_Cooling_REQ-hotel_info
     examples: |
+      - The technician had checked the problem in the [air conditioning](AC_Cooling_REQ) in room 109 last night & told me that the cooling problem was resolved.
+      - [Air conditioning](AC_Cooling_REQ) is not upto to mark.
+      - I have complained to Mr Atul regarding the [ac](AC_Cooling_REQ) cooling was not effective n we have disturbed whole the night…
+      - Please check [ac](AC_Cooling_REQ) cooling of Room no 638.
+      - My [ac](AC_Cooling_REQ) is not working properly .Temperature is not coming down to 21 C.
+      - he room [ac](AC_Cooling_REQ) was not cooling so dats why my baby not sleeping properly...
       - My [air conditioner](AC_Cooling_REQ) is not cooling properly.
       - The [AC](AC_Cooling_REQ) in my room is blowing warm air.
       - There's no cold air coming from the [AC](AC_Cooling_REQ).
@@ -326,6 +332,7 @@ nlu:
       - Actually I have one [ac](AC_Cooling_REQ) room and that [ac](AC_Cooling_REQ) is not cooling how the fuck is this.
   - intent: Ac_Dirty_REQ-hotel_info
     examples: |
+      - [ac](Ac_Dirty_REQ) is quite dirty.
       - There is strange pungent smell from [ac](Ac_Dirty_REQ).
       - I cant stay where the [ac](Ac_Dirty_REQ) is this dirty.
       - I think the [ac](Ac_Dirty_REQ) looks very dirty I think think the air is blocked.
@@ -432,6 +439,32 @@ nlu:
       - I hope the hotel can address the issue with the dirty [AC's](Ac_Dirty_REQ) and clean it promptly.
   - intent: Ac_Assistance_REQ-hotel_info
     examples: |
+      - [ac](Ac_Assistance_REQ) malfunctioning.
+      - [ac](Ac_Assistance_REQ) is in bad shape.
+      - the [Air conditioner](Ac_Assistance_REQ) wasn’t working properly in the light leading us to just sweat in those comforters.
+      - The room [air conditioning](Ac_Assistance_REQ) is not working well.
+      - I didn't have a comfortable stay. The [air conditioning](Ac_Assistance_REQ) in the room wasn't working well.
+      - [Air conditioning](Ac_Assistance_REQ) of room was not working at night 
+      - [Air Conditioner](Ac_Assistance_REQ) was not working fine.
+      - Room [Air Conditioning](Ac_Assistance_REQ). Can you fix it?
+      - When we had entered the room post checkin the temperature was fantastic and we felt great but were taken off from sleep around 3:30-3:45 with [Aircon](Ac_Assistance_REQ) not working.
+      - Hi. This is 5:40 am in the morning and for last two hours the [air conditioning](Ac_Assistance_REQ) in the sleeping room is dis functional.  On complaining around 4:30 someone came around 5 and said the actuator wasn’t functioning in the sitting area. He said he has lowered down the temp and it would be OK.  The sitting area has become bit better but sleep room is still bad with mosquitos and humidity prevailing.
+      - The [air conditioning](Ac_Assistance_REQ) in the room did not work well last night and I could not sleep well.
+      - I am facing a problem of [air conditioner](Ac_Assistance_REQ). 
+      - I don’t sleep overnight bcz of Room no 718 [air conditioning](Ac_Assistance_REQ) system. 
+      - Need [ac](Ac_Assistance_REQ) in meditation room.
+      - [Air Conditioner](Ac_Assistance_REQ) was not working fine.
+      - [ac](Ac_Assistance_REQ) is not working uptomark.
+      - I need assistance with the [ac](Ac_Assistance_REQ).
+      - I would like you to fix the [ac](Ac_Assistance_REQ) thanks. 
+      - The [ac](Ac_Assistance_REQ) also has not been effective. 
+      - The room has been a constant challenge, the [ac](Ac_Assistance_REQ) in the bedroom has been leaking .. am getting it checked but one has to attend it at 1:30 in night instead of sleeping.
+      - How can we slow down the [ac](Ac_Assistance_REQ) in the room?
+      - Send boy [ac](Ac_Assistance_REQ) not working.
+      - Having serious [ac](Ac_Assistance_REQ) issue in my room. Please give me a solution
+      - Room [ac](Ac_Assistance_REQ) was not working properly i complain on reception bt not resolved my problem me my family was not feel properly in the room 
+      - Room as leakage from [ac](Ac_Assistance_REQ) vent
+      - I am facing a problem of [air conditioner](Ac_Assistance_REQ) 
       - [AC](Ac_Assistance_REQ) seems to be broken.
       - It looks like [AC](Ac_Assistance_REQ) is broke.
       - I think [AC](Ac_Assistance_REQ) is broken.
@@ -537,6 +570,58 @@ nlu:
       - there's no fucking service from your hotel how bad these service I want to raise this concern to your senior manager and want to escalate that [ac](Ac_Assistance_REQ) is not working
   - intent: Tv_Assistance_REQ-hotel_info
     examples: |
+      - Hi. The video quality on the [tv](Tv_Assistance_REQ) is not that great.
+      - Hotel should have Netflix and Amazon for [tv](Tv_Assistance_REQ).
+      - [tv](Tv_Assistance_REQ) reception not clear.
+      - I am having real issues with the [tv](Tv_Assistance_REQ) in my room. It just turns off every two minutes and the message keeps popping up that the set top box is not receiving any signal.
+      - Hi. Can you pls send technician. The [tv](Tv_Assistance_REQ) is not getting turned off thx
+      - Trying to cast the [tv](Tv_Assistance_REQ), but tht isnt working
+      - Please ask someone to check the [tv](Tv_Assistance_REQ). in my room, it’s not working.
+      - I couldnt connect my phone to the [tv](Tv_Assistance_REQ).
+      - Don't we get CNN in LEELA here or there is a issue in my room [tv](Tv_Assistance_REQ)?
+      - Unable to scan QR in [tv](Tv_Assistance_REQ).
+      - I'm from room no - 836, [tv](Tv_Assistance_REQ)  is a smart one???
+      - Can you please send it across also I need somebody to explain have to cast phone to [tv](Tv_Assistance_REQ) in room.
+      - Can you confirm if the rooms have smart [tv](Tv_Assistance_REQ) or is there anyway we can watch Netflix?
+      - Need some help in [tv](Tv_Assistance_REQ) settings please
+      - Channel 3 on [tv](Tv_Assistance_REQ) does not show any QR code
+      - Thank you. I am in room no 622. I need a LG [TV remote](Tv_Assistance_REQ) please.
+      - How to turn on [tv](Tv_Assistance_REQ).
+      - And [tv](Tv_Assistance_REQ) is too close to put a strain on eyes
+      - Is there a way to watch Netflix in [tv](Tv_Assistance_REQ) ?
+      - [tv](Tv_Assistance_REQ) also kept coming on during night
+      - Hey Checking to see if the [tv](Tv_Assistance_REQ) is fixed. We called in the help desk this morning
+      - [TV remote](Tv_Assistance_REQ) is not working
+      - Got it but sorry, no channels arr available on [tv](Tv_Assistance_REQ).
+      - Not getting [tv](Tv_Assistance_REQ) channels. Please send technician.
+      - Can you send someone to start [tv](Tv_Assistance_REQ).
+      - Also need someone's help to switch off the [tv](Tv_Assistance_REQ). Apparently the remote is not working and I don't wanna experiment with the TV itself
+      - My room [tv remote](Tv_Assistance_REQ) is missing
+      - Hi, channel 56 on [tv](Tv_Assistance_REQ) does not work can it be activated please
+      - Its not able to read it from the [tv](Tv_Assistance_REQ). 
+      - Is ur [tv](Tv_Assistance_REQ) technician available?
+      - Kindly get the [tv](Tv_Assistance_REQ) fixed pls.
+      - [tv](Tv_Assistance_REQ) is not connecting to the WiFi. Javith from engineering came and checked and he said it’ll be done in the day today. Please fix that as well.
+      - No [tv](Tv_Assistance_REQ) channels were available.
+      - [tv](Tv_Assistance_REQ) speaker was not good. 
+      - [tv](Tv_Assistance_REQ) cable didn’t work initially
+      - [tv](Tv_Assistance_REQ) is not working.
+      - My smartphone is not getting connect with [tv](Tv_Assistance_REQ).
+      - How to connect [tv](Tv_Assistance_REQ) with smart phone.
+      - How to turn on [tv](Tv_Assistance_REQ).
+      - How to connect smart [tv](Tv_Assistance_REQ) with phone
+      - [tv](Tv_Assistance_REQ) on nahi ho pa raha hai.
+      - [tv](Tv_Assistance_REQ) is not working for our suit.
+      - come back with a technician to fix the [tv](Tv_Assistance_REQ) when you say you will bring someone to fix it
+      - Good evening, I need some help with the [television](Tv_Assistance_REQ)
+      - Send someone unable to view [television](Tv_Assistance_REQ).
+      - Namaste, [television](Tv_Assistance_REQ) not working in the room. Send service person to rectify the same
+      - [tv](Tv_Assistance_REQ) not worthy to watch HD channels.
+      - [tv](Tv_Assistance_REQ) reception not clear
+      - [tv](Tv_Assistance_REQ) not working as well.
+      - Hello, do you have a firestick/smart [tv](Tv_Assistance_REQ) in the rooms?
+      - Hotel should have Netflix and Amazon for [tv](Tv_Assistance_REQ).
+      - My [TV](Tv_Assistance_REQ) is not working
       - My [TV](Tv_Assistance_REQ) is not working at all.
       - The [TV](Tv_Assistance_REQ) screen is blank, and there's no signal.
       - I can't turn on the [TV](Tv_Assistance_REQ) using the remote.
@@ -590,6 +675,9 @@ nlu:
       - There is no picture on [tv](Tv_Assistance_REQ).
   - intent: Tv_Dirty_REQ-hotel_info
     examples: |
+      - [tv](Tv_Dirty_REQ) looks too dirty
+      - the [tv](Tv_Dirty_REQ) is not clean.
+      - [tv](Tv_Dirty_REQ) has dirt on it.
       - [tv](Tv_Dirty_REQ) has some dirt on it.
       - [tv](Tv_Dirty_REQ) looks very dirty.
       - The [television](Tv_Dirty_REQ) screen has accumulated dust and dirt.
