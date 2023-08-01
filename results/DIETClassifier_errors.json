@@ -1,0 +1,504 @@
+[
+  {
+    "text": "I woke up to a dripping noise coming from the AC.",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "Ac_Noisy_REQ",
+        "start": 46,
+        "end": 48,
+        "confidence_entity": 0.9521076679229736,
+        "value": "AC",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "There's a lack of cool air coming from the vents of my air conditioner.",
+    "entities": [
+      {
+        "start": 55,
+        "end": 70,
+        "value": "air conditioner",
+        "entity": "AC_Cooling_REQ"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "Ac_Assistance_REQ",
+        "start": 23,
+        "end": 26,
+        "confidence_entity": 0.6292921304702759,
+        "value": "air",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "AC_Cooling_REQ",
+        "start": 55,
+        "end": 70,
+        "confidence_entity": 0.6245468854904175,
+        "value": "air conditioner",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "The AC is not cooling or heating as expected.",
+    "entities": [
+      {
+        "start": 4,
+        "end": 6,
+        "value": "AC",
+        "entity": "Ac_Assistance_REQ"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "AC_Cooling_REQ",
+        "start": 4,
+        "end": 6,
+        "confidence_entity": 0.9709194898605347,
+        "value": "AC",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "The air conditioner's vents are not releasing air.",
+    "entities": [
+      {
+        "start": 4,
+        "end": 19,
+        "value": "air conditioner",
+        "entity": "Ac_Assistance_REQ"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "Ac_Assistance_REQ",
+        "start": 4,
+        "end": 19,
+        "confidence_entity": 0.6329952478408813,
+        "value": "air conditioner",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "Ac_Assistance_REQ",
+        "start": 46,
+        "end": 49,
+        "confidence_entity": 0.6287204027175903,
+        "value": "air",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "The air conditioner is not switching between modes (cool, heat, etc.).",
+    "entities": [
+      {
+        "start": 4,
+        "end": 19,
+        "value": "air conditioner",
+        "entity": "Ac_Assistance_REQ"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "AC_Cooling_REQ",
+        "start": 4,
+        "end": 19,
+        "confidence_entity": 0.6102082133293152,
+        "value": "air conditioner",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "The air conditioner is not producing any cool or warm air.",
+    "entities": [
+      {
+        "start": 4,
+        "end": 19,
+        "value": "air conditioner",
+        "entity": "Ac_Assistance_REQ"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "AC_Cooling_REQ",
+        "start": 4,
+        "end": 19,
+        "confidence_entity": 0.6240702271461487,
+        "value": "air conditioner",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "Ac_Assistance_REQ",
+        "start": 54,
+        "end": 57,
+        "confidence_entity": 0.6244440674781799,
+        "value": "air",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "The AC unit not cooling the room; something must be wrong with it.",
+    "entities": [
+      {
+        "start": 4,
+        "end": 6,
+        "value": "AC",
+        "entity": "Ac_Assistance_REQ"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "AC_Cooling_REQ",
+        "start": 4,
+        "end": 6,
+        "confidence_entity": 0.9657162427902222,
+        "value": "AC",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Also need someone's help to switch off the tv. Apparently the remote is not working and I don't wanna experiment with the TV itself",
+    "entities": [
+      {
+        "start": 43,
+        "end": 45,
+        "value": "tv",
+        "entity": "Tv_Assistance_REQ"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "Tv_Assistance_REQ",
+        "start": 17,
+        "end": 19,
+        "confidence_entity": 0.5684429407119751,
+        "value": "'s",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "Tv_Assistance_REQ",
+        "start": 43,
+        "end": 45,
+        "confidence_entity": 0.4196693003177643,
+        "value": "TV",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "Tv_Assistance_REQ",
+        "start": 122,
+        "end": 124,
+        "confidence_entity": 0.5182100534439087,
+        "value": "TV",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "The TV's remote is working for other devices but not the TV.",
+    "entities": [
+      {
+        "start": 4,
+        "end": 8,
+        "value": "TV's",
+        "entity": "Tv_Assistance_REQ"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "Tv_Assistance_REQ",
+        "start": 4,
+        "end": 8,
+        "confidence_entity": 0.5313905477523804,
+        "value": "TV's",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "Tv_Assistance_REQ",
+        "start": 57,
+        "end": 59,
+        "confidence_entity": 0.41592130064964294,
+        "value": "TV",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "The TV's remote is pairing with the TV but not controlling it.",
+    "entities": [
+      {
+        "start": 4,
+        "end": 8,
+        "value": "TV's",
+        "entity": "Tv_Assistance_REQ"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "Tv_Assistance_REQ",
+        "start": 4,
+        "end": 8,
+        "confidence_entity": 0.5437972545623779,
+        "value": "TV's",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "Tv_Assistance_REQ",
+        "start": 36,
+        "end": 38,
+        "confidence_entity": 0.5426314473152161,
+        "value": "TV",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "The TV's remote's batteries are replaced, but it's still not working.",
+    "entities": [
+      {
+        "start": 4,
+        "end": 8,
+        "value": "TV's",
+        "entity": "Tv_Assistance_REQ"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "Tv_Assistance_REQ",
+        "start": 4,
+        "end": 8,
+        "confidence_entity": 0.543349027633667,
+        "value": "TV's",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "Tv_Assistance_REQ",
+        "start": 15,
+        "end": 17,
+        "confidence_entity": 0.9444285035133362,
+        "value": "'s",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "The television's remote is not pairing with the TV at all.",
+    "entities": [
+      {
+        "start": 4,
+        "end": 16,
+        "value": "television's",
+        "entity": "Tv_Assistance_REQ"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "Tv_Assistance_REQ",
+        "start": 4,
+        "end": 16,
+        "confidence_entity": 0.8916444182395935,
+        "value": "television's",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "Tv_Assistance_REQ",
+        "start": 48,
+        "end": 50,
+        "confidence_entity": 0.5409467220306396,
+        "value": "TV",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "tv looks too dirty",
+    "entities": [
+      {
+        "start": 0,
+        "end": 2,
+        "value": "tv",
+        "entity": "Tv_Dirty_REQ"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "Tv_Dirty_REQ",
+        "start": 0,
+        "end": 2,
+        "confidence_entity": 0.8818052411079407,
+        "value": "TV",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "Tv_Dirty_REQ",
+        "start": 13,
+        "end": 18,
+        "confidence_entity": 0.386928915977478,
+        "value": "dirty",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "The Tv screen is covered in fingerprints and dirt.",
+    "entities": [
+      {
+        "start": 4,
+        "end": 13,
+        "value": "Tv screen",
+        "entity": "Tv_Dirty_REQ"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "Tv_Dirty_REQ",
+        "start": 4,
+        "end": 6,
+        "confidence_entity": 0.8347241878509521,
+        "value": "TV",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Excuse me, but I can't find a spoon in my room.",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "Spoon_REQ",
+        "start": 30,
+        "end": 35,
+        "confidence_entity": 0.9235785603523254,
+        "value": "spoon",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Is it possible to get a spare key for my room? I can't locate my original key.",
+    "entities": [
+      {
+        "start": 24,
+        "end": 33,
+        "value": "spare key",
+        "entity": "Additional_key_REQ"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "Additional_key_REQ",
+        "start": 24,
+        "end": 33,
+        "confidence_entity": 0.6812007427215576,
+        "value": "spare key",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "Additional_Key_REQ",
+        "start": 74,
+        "end": 77,
+        "confidence_entity": 0.4600464999675751,
+        "value": "key",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "I'm unable to enter my room as I've lost my key. Can I have a spare key, please?",
+    "entities": [
+      {
+        "start": 62,
+        "end": 71,
+        "value": "spare key",
+        "entity": "Additional_key_REQ"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "Additional_Key_REQ",
+        "start": 44,
+        "end": 47,
+        "confidence_entity": 0.4799878001213074,
+        "value": "key",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "Additional_key_REQ",
+        "start": 62,
+        "end": 71,
+        "confidence_entity": 0.656233549118042,
+        "value": "spare key",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  }
+]

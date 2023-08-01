@@ -224,7 +224,8 @@ nlu:
       - My [AC](Ac_Noisy_REQ) started making a knocking noise after the recent maintenance.
   - intent: Ac_Cooling_REQ-hotel_info
     examples: |
-      - The ac](AC_Cooling_REQ) in the office area is not cooling well
+      - the [ac](AC_Cooling_REQ) is not cooling
+      - The [ac](AC_Cooling_REQ) in the office area is not cooling well
       - The technician had checked the problem in the [air conditioning](AC_Cooling_REQ) in room 109 last night & told me that the cooling problem was resolved.
       - [Air conditioning](AC_Cooling_REQ) is not upto to mark.
       - I have complained to Mr Atul regarding the [ac](AC_Cooling_REQ) cooling was not effective n we have disturbed whole the night…
