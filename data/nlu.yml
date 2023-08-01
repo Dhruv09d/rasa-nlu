@@ -119,7 +119,7 @@ nlu:
       - How's your positivity?
       - How's your karma?
       - How's your adventure going?
-  - intent: AC_Noisy_REQ-hotel_info
+  - intent: Ac_Noisy_REQ-hotel_info
     examples: |
       - the [AC](Ac_Noisy_REQ) is making lot of noise.  
       - The [air conditioner](Ac_Noisy_REQ) in my room is making an unusual noise.
@@ -224,6 +224,7 @@ nlu:
       - My [AC](Ac_Noisy_REQ) started making a knocking noise after the recent maintenance.
   - intent: Ac_Cooling_REQ-hotel_info
     examples: |
+      - The ac](AC_Cooling_REQ) in the office area is not cooling well
       - The technician had checked the problem in the [air conditioning](AC_Cooling_REQ) in room 109 last night & told me that the cooling problem was resolved.
       - [Air conditioning](AC_Cooling_REQ) is not upto to mark.
       - I have complained to Mr Atul regarding the [ac](AC_Cooling_REQ) cooling was not effective n we have disturbed whole the night…
@@ -332,6 +333,9 @@ nlu:
       - Actually I have one [ac](AC_Cooling_REQ) room and that [ac](AC_Cooling_REQ) is not cooling how the fuck is this.
   - intent: Ac_Dirty_REQ-hotel_info
     examples: |
+      - Could you please send someone to clean the dust off the [ac](Ac_Dirty_REQ) screen in my suite?
+      - the [ac](Ac_Dirty_REQ) has some dust on it please get it clean by someone.
+      - [ac](Ac_Dirty_REQ) is very dirty. 
       - [ac](Ac_Dirty_REQ) is quite dirty.
       - There is strange pungent smell from [ac](Ac_Dirty_REQ).
       - I cant stay where the [ac](Ac_Dirty_REQ) is this dirty.
@@ -439,6 +443,9 @@ nlu:
       - I hope the hotel can address the issue with the dirty [AC's](Ac_Dirty_REQ) and clean it promptly.
   - intent: Ac_Assistance_REQ-hotel_info
     examples: |
+      - The [ac](Ac_Assistance_REQ) in the room needs cleaning
+      - The remote control for the [ac](Ac_Assistance_REQ) is not responding. Can you send someone to fix it?
+      - The [ac](Ac_Assistance_REQ) in my meeting room is leaking water. Can you send maintenance to fix it?
       - [ac](Ac_Assistance_REQ) malfunctioning.
       - [ac](Ac_Assistance_REQ) is in bad shape.
       - the [Air conditioner](Ac_Assistance_REQ) wasn’t working properly in the light leading us to just sweat in those comforters.
@@ -570,6 +577,15 @@ nlu:
       - there's no fucking service from your hotel how bad these service I want to raise this concern to your senior manager and want to escalate that [ac](Ac_Assistance_REQ) is not working
   - intent: Tv_Assistance_REQ-hotel_info
     examples: |
+      - Excuse me, the [TV](Tv_Assistance_REQ) in the gym is not working.
+      - see my [TV](Tv_Assistance_REQ) is not working.
+      - my [tv](Tv_Assistance_REQ) isn't working, please send someone to to repair it.
+      - can someone let me know how long it will take in repairing the [TV](Tv_Assistance_REQ). 
+      - The [TV](Tv_Assistance_REQ) in the lounge area has a broken power button. Can you arrange for a repair?
+      - My [TV's](Tv_Assistance_REQ) volume is not working correctly.
+      - My [TV](Tv_Assistance_REQ) has some signal issues. Is there a technician available to come and resolve the problem?
+      - My [TV remote](Tv_Assistance_REQ) is not working,
+      - [tv](Tv_Assistance_REQ) is not working.
       - Hi. The video quality on the [tv](Tv_Assistance_REQ) is not that great.
       - Hotel should have Netflix and Amazon for [tv](Tv_Assistance_REQ).
       - [tv](Tv_Assistance_REQ) reception not clear.
@@ -675,6 +691,7 @@ nlu:
       - There is no picture on [tv](Tv_Assistance_REQ).
   - intent: Tv_Dirty_REQ-hotel_info
     examples: |
+      - Could you please send someone to clean the dust off the [tv](Tv_Dirty_REQ) screen in my suite?
       - [tv](Tv_Dirty_REQ) looks too dirty
       - the [tv](Tv_Dirty_REQ) is not clean.
       - [tv](Tv_Dirty_REQ) has dirt on it.
@@ -931,6 +948,23 @@ nlu:
       - Hi, I seem to have misplaced my [room key](Additional_Key_REQ). May I have a [spare key](Additional_key_REQ) to use?
       - I'm facing an issue with my [room key](Additional_Key_REQ). Is it possible to get a spare one, please?
       - I can't find my [room key](Additional_Key_REQ) anywhere. Can I get a [spare key](Additional_key_REQ), by any chance?
+
+  - regex: ac
+    examples: |
+      - AC
+      - Ac
+      - ac
+      - air conditioner
+      - air conditioning
+      - ac vent
+  - regex: TV
+    examples: |
+      - TV
+      - tv
+      - television
+      - television
+      - telvision
+
   # - lookup: Ac_Assistance_REQ
   #   examples: |
   #     - air conditioner's broken

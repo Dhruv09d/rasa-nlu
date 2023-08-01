@@ -1,34 +1,70 @@
 version: "3.1"
 
 intents:
-  - greet
-  - goodbye
-  - affirm
-  - deny
-  - mood_great
-  - mood_unhappy
-  - bot_challenge
+  - main_menu
+  - Ac_Noisy_REQ-hotel_info
+  - Ac_Cooling_REQ-hotel_info
+  - Ac_Dirty_REQ-hotel_info
+  - Ac_Assistance_REQ-hotel_info
+  - Tv_Assistance_REQ-hotel_info
+  - Tv_Dirty_REQ-hotel_info
+  - Spoon_REQ-hotel_info
+  - Additional_Key_REQ-hotel_info
+
+entities:
+  - TV
+  - AC
+  - Spoon
+  - Additional_Key
+  - main_menu
+
+slots:
+  TV:
+    type: text
+  AC:
+    type: text
+  Spoon:
+    type: text
+  Additional_Key:
+    type: text
+  main_menu:
+    type: text
 
 responses:
-  utter_greet:
-  - text: "Hey! How are you?"
+  utter_main_menu:
+    - text: "Welcome to our hotel. How may I assist you today?"
 
-  utter_cheer_up:
-  - text: "Here is something to cheer you up:"
-    image: "https://i.imgur.com/nGF1K8f.jpg"
+  utter_AC_Noisy_REQ-hotel_info:
+    - text: "I apologize for the inconvenience. I will inform the maintenance team about the noisy AC in your room."
 
-  utter_did_that_help:
-  - text: "Did that help you?"
+  utter_Ac_Cooling_REQ-hotel_info:
+    - text: "Certainly! Let me help you adjust the cooling settings for the AC in your room."
 
-  utter_happy:
-  - text: "Great, carry on!"
+  utter_Ac_Dirty_REQ-hotel_info:
+    - text: "Noted. I will arrange for the cleaning of the AC in your room."
 
-  utter_goodbye:
-  - text: "Bye"
+  utter_Ac_Assistance_REQ-hotel_info:
+    - text: "Of course! Please let me know how I can assist you with the AC."
 
-  utter_iamabot:
-  - text: "I am a bot, powered by Rasa."
+  utter_Tv_Assistance_REQ-hotel_info:
+    - text: "Sure, I'll send someone to assist you with the TV."
 
-session_config:
-  session_expiration_time: 60
-  carry_over_slots_to_new_session: true
+  utter_Tv_Dirty_REQ-hotel_info:
+    - text: "Thank you for letting us know. We'll make sure to clean the TV in your room."
+
+  utter_Spoon_REQ-hotel_info:
+    - text: "Certainly! I'll have a spoon delivered to your room right away."
+
+  utter_Additional_Key_REQ-hotel_info:
+    - text: "Sure, I'll arrange an additional room key for you."
+
+actions:
+  - utter_main_menu
+  - utter_AC_Noisy_REQ-hotel_info
+  - utter_Ac_Cooling_REQ-hotel_info
+  - utter_Ac_Dirty_REQ-hotel_info
+  - utter_Ac_Assistance_REQ-hotel_info
+  - utter_Tv_Assistance_REQ-hotel_info
+  - utter_Tv_Dirty_REQ-hotel_info
+  - utter_Spoon_REQ-hotel_info
+  - utter_Additional_Key_REQ-hotel_info
