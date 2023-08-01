@@ -211,7 +211,6 @@ nlu:
       - The strange clicking noise from the [AC](Ac_Noisy_REQ) is getting louder.
       - I can't concentrate on my studies with the [AC](Ac_Noisy_REQ) making such a racket.
       - The [AC](Ac_Noisy_REQ) unit in the bedroom is making an annoying ticking noise.
-      - I woke up to a dripping noise coming from the AC.
       - The [AC's](Ac_Noisy_REQ) whirring noise is louder than usual.
       - My [AC](Ac_Noisy_REQ) is making a strange humming noise that's never been there before.
       - The loud banging noise from the [AC](Ac_Noisy_REQ) is concerning.
@@ -224,6 +223,10 @@ nlu:
       - My [AC](Ac_Noisy_REQ) started making a knocking noise after the recent maintenance.
   - intent: Ac_Cooling_REQ-hotel_info
     examples: |
+      - The [air conditioner](AC_Cooling_REQ) is not switching between modes (cool, heat, etc.).
+      - The [AC](AC_Cooling_REQ) is not cooling or heating as expected.
+      - The [air conditioner](AC_Cooling_REQ) is not producing any cool or warm air.
+      - The [AC](AC_Cooling_REQ) unit not cooling the room; something must be wrong with it.
       - The ac](AC_Cooling_REQ) in the office area is not cooling well
       - The technician had checked the problem in the [air conditioning](AC_Cooling_REQ) in room 109 last night & told me that the cooling problem was resolved.
       - [Air conditioning](AC_Cooling_REQ) is not upto to mark.
@@ -294,7 +297,6 @@ nlu:
       - The cooling output of my [air conditioner](AC_Cooling_REQ) has decreased significantly.
       - The temperature in the room remains high despite the [AC](AC_Cooling_REQ) being on.
       - My [AC](AC_Cooling_REQ) doesn't seem to be able to cool the room adequately.
-      - There's a lack of cool air coming from the vents of my [air conditioner](AC_Cooling_REQ).
       - The cooling seems to be uneven throughout the room when the [AC](AC_Cooling_REQ) is on.
       - I've tried adjusting the settings, but the cooling remains unsatisfactory.
       - My [AC](AC_Cooling_REQ) is blowing warm air instead of cool air.
@@ -443,6 +445,7 @@ nlu:
       - I hope the hotel can address the issue with the dirty [AC's](Ac_Dirty_REQ) and clean it promptly.
   - intent: Ac_Assistance_REQ-hotel_info
     examples: |
+      - I woke up to a dripping noise coming from the [ac](Ac_Assistance_REQ).
       - The [ac](Ac_Assistance_REQ) in the room needs cleaning
       - The remote control for the [ac](Ac_Assistance_REQ) is not responding. Can you send someone to fix it?
       - The [ac](Ac_Assistance_REQ) in my meeting room is leaking water. Can you send maintenance to fix it?
@@ -489,7 +492,6 @@ nlu:
       - The [air conditioner](Ac_Assistance_REQ) is not responding to the remote control.
       - The [AC's][AC](Ac_Assistance_REQ) fan is not spinning when I switch it on.
       - The [air conditioner](Ac_Assistance_REQ)'s compressor is not engaging.
-      - The [AC](Ac_Assistance_REQ) is not cooling or heating as expected.
       - The [air conditioner](Ac_Assistance_REQ)'s lights are not turning on.
       - The [AC's][AC](Ac_Assistance_REQ) power button is unresponsive.
       - I've checked the power source, but the [AC](Ac_Assistance_REQ) is not working.
@@ -498,7 +500,6 @@ nlu:
       - The [air conditioner](Ac_Assistance_REQ)'s vents are not releasing air.
       - The [AC's][AC](Ac_Assistance_REQ) temperature settings are not changing.
       - I've pressed the [AC's][AC](Ac_Assistance_REQ) buttons, but it's not responding.
-      - The [air conditioner](Ac_Assistance_REQ) is not switching between modes (cool, heat, etc.).
       - The [AC's][AC](Ac_Assistance_REQ) remote control is not communicating with the unit.
       - The [air conditioner](Ac_Assistance_REQ)'s circuit breaker has not tripped.
       - The [AC](Ac_Assistance_REQ) is not displaying any error codes or messages.
@@ -513,7 +514,6 @@ nlu:
       - The [AC's][AC](Ac_Assistance_REQ) display shows an error message, indicating a problem.
       - The [air conditioner](Ac_Assistance_REQ)'s internal fan is not operating.
       - The [AC's][AC](Ac_Assistance_REQ) motor is not functioning, resulting in no airflow.
-      - The [air conditioner](Ac_Assistance_REQ) is not producing any cool or warm air.
       - The [AC's][AC](Ac_Assistance_REQ) condenser is not working, affecting its cooling ability.
       - The [air conditioner](Ac_Assistance_REQ)'s timer function is not working.
       - The [AC's][AC](Ac_Assistance_REQ) fan speed settings are not adjustable.
@@ -534,7 +534,6 @@ nlu:
       - The hotel room is nice, but the [AC](Ac_Assistance_REQ) is not working, making it hard to sleep comfortably.
       - We need to call a technician because the [AC](Ac_Assistance_REQ) is not working as it should.
       - It's frustrating that the [AC](Ac_Assistance_REQ) in the room is not working on such a hot day.
-      - The [AC](Ac_Assistance_REQ) unit not cooling the room; something must be wrong with it.
       - I'm sweating profusely because the [AC](Ac_Assistance_REQ) in the room is not working properly.
       - Our uncomfortable in the room as the [AC](Ac_Assistance_REQ) is not working, and it's difficult to focus.
       - The room experience was ruined because the [AC](Ac_Assistance_REQ) was not working, and it was stifling hot.

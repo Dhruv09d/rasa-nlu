@@ -1,70 +1,70 @@
-version: "3.1"
+# version: "3.1"
 
-intents:
-  - main_menu
-  - Ac_Noisy_REQ-hotel_info
-  - Ac_Cooling_REQ-hotel_info
-  - Ac_Dirty_REQ-hotel_info
-  - Ac_Assistance_REQ-hotel_info
-  - Tv_Assistance_REQ-hotel_info
-  - Tv_Dirty_REQ-hotel_info
-  - Spoon_REQ-hotel_info
-  - Additional_Key_REQ-hotel_info
+# intents:
+#   - main_menu
+#   - Ac_Noisy_REQ-hotel_info
+#   - Ac_Cooling_REQ-hotel_info
+#   - Ac_Dirty_REQ-hotel_info
+#   - Ac_Assistance_REQ-hotel_info
+#   - Tv_Assistance_REQ-hotel_info
+#   - Tv_Dirty_REQ-hotel_info
+#   - Spoon_REQ-hotel_info
+#   - Additional_Key_REQ-hotel_info
 
-entities:
-  - TV
-  - AC
-  - Spoon
-  - Additional_Key
-  - main_menu
+# entities:
+#   - TV
+#   - AC
+#   - Spoon
+#   - Additional_Key
+#   - main_menu
 
-slots:
-  TV:
-    type: text
-  AC:
-    type: text
-  Spoon:
-    type: text
-  Additional_Key:
-    type: text
-  main_menu:
-    type: text
+# slots:
+#   TV:
+#     type: text
+#   AC:
+#     type: text
+#   Spoon:
+#     type: text
+#   Additional_Key:
+#     type: text
+#   main_menu:
+#     type: text
 
-responses:
-  utter_main_menu:
-    - text: "Welcome to our hotel. How may I assist you today?"
+# responses:
+#   utter_main_menu:
+#     - text: "Welcome to our hotel. How may I assist you today?"
 
-  utter_AC_Noisy_REQ-hotel_info:
-    - text: "I apologize for the inconvenience. I will inform the maintenance team about the noisy AC in your room."
+#   utter_AC_Noisy_REQ-hotel_info:
+#     - text: "I apologize for the inconvenience. I will inform the maintenance team about the noisy AC in your room."
 
-  utter_Ac_Cooling_REQ-hotel_info:
-    - text: "Certainly! Let me help you adjust the cooling settings for the AC in your room."
+#   utter_Ac_Cooling_REQ-hotel_info:
+#     - text: "Certainly! Let me help you adjust the cooling settings for the AC in your room."
 
-  utter_Ac_Dirty_REQ-hotel_info:
-    - text: "Noted. I will arrange for the cleaning of the AC in your room."
+#   utter_Ac_Dirty_REQ-hotel_info:
+#     - text: "Noted. I will arrange for the cleaning of the AC in your room."
 
-  utter_Ac_Assistance_REQ-hotel_info:
-    - text: "Of course! Please let me know how I can assist you with the AC."
+#   utter_Ac_Assistance_REQ-hotel_info:
+#     - text: "Of course! Please let me know how I can assist you with the AC."
 
-  utter_Tv_Assistance_REQ-hotel_info:
-    - text: "Sure, I'll send someone to assist you with the TV."
+#   utter_Tv_Assistance_REQ-hotel_info:
+#     - text: "Sure, I'll send someone to assist you with the TV."
 
-  utter_Tv_Dirty_REQ-hotel_info:
-    - text: "Thank you for letting us know. We'll make sure to clean the TV in your room."
+#   utter_Tv_Dirty_REQ-hotel_info:
+#     - text: "Thank you for letting us know. We'll make sure to clean the TV in your room."
 
-  utter_Spoon_REQ-hotel_info:
-    - text: "Certainly! I'll have a spoon delivered to your room right away."
+#   utter_Spoon_REQ-hotel_info:
+#     - text: "Certainly! I'll have a spoon delivered to your room right away."
 
-  utter_Additional_Key_REQ-hotel_info:
-    - text: "Sure, I'll arrange an additional room key for you."
+#   utter_Additional_Key_REQ-hotel_info:
+#     - text: "Sure, I'll arrange an additional room key for you."
 
-actions:
-  - utter_main_menu
-  - utter_AC_Noisy_REQ-hotel_info
-  - utter_Ac_Cooling_REQ-hotel_info
-  - utter_Ac_Dirty_REQ-hotel_info
-  - utter_Ac_Assistance_REQ-hotel_info
-  - utter_Tv_Assistance_REQ-hotel_info
-  - utter_Tv_Dirty_REQ-hotel_info
-  - utter_Spoon_REQ-hotel_info
-  - utter_Additional_Key_REQ-hotel_info
+# actions:
+#   - utter_main_menu
+#   - utter_AC_Noisy_REQ-hotel_info
+#   - utter_Ac_Cooling_REQ-hotel_info
+#   - utter_Ac_Dirty_REQ-hotel_info
+#   - utter_Ac_Assistance_REQ-hotel_info
+#   - utter_Tv_Assistance_REQ-hotel_info
+#   - utter_Tv_Dirty_REQ-hotel_info
+#   - utter_Spoon_REQ-hotel_info
+#   - utter_Additional_Key_REQ-hotel_info
