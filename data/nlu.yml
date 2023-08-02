@@ -302,7 +302,6 @@ nlu:
       - My [AC](AC_Cooling_REQ) is blowing warm air instead of cool air.
       - The cooling problem in my [air conditioner](AC_Cooling_REQ) has persisted for a while now.
       - The [AC](AC_Cooling_REQ) compressor appears to be running, but the cooling effect is minimal.
-      - The cooling coils of my [AC](AC_Cooling_REQ) might be dirty or blocked, affecting its efficiency.
       - I suspect a refrigerant leak might be causing the cooling issue in my [AC](AC_Cooling_REQ).
       - The fan of my [AC](AC_Cooling_REQ) is working, but the cooling is not up to the mark.
       - The [thermostat](AC_Cooling_REQ) settings don't seem to be influencing the cooling output.
@@ -324,7 +323,6 @@ nlu:
       - The [AC's](AC_Cooling_REQ) cooling capacity seems to have reduced since last season.
       - My [AC](AC_Cooling_REQ) cools better during the night than during the day.
       - The cooling problem could be due to an airflow obstruction in the ducts.
-      - I suspect the evaporator coil might be dirty, hindering cooling.
       - My [AC's](AC_Cooling_REQ) cooling issue started after a recent power surge.
       - There might be a problem with the expansion valve affecting the cooling.
       - The cooling problem worsens when the [AC](AC_Cooling_REQ) filter gets clogged.

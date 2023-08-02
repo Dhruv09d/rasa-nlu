@@ -2,3 +2,4 @@ models/*
 .rasa/*
 rasa-venv/*
 results
+.env/*
